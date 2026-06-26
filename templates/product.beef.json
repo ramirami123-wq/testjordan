@@ -1,0 +1,344 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_Q4eMAn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #9e132b; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>394+</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_yRQmCt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#E6D6C9;\n      color:#00000;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#00000;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
+        "text_XfnRxT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Transform your face with this vegan, cruelty-free foundation designed to deliver the perfect match of your skin tone.",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_H9DXEK": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"background:#fff; padding: 0rem 2rem; max-width: 560px; font-family: var(--font-sans);\">\n \n  <ul style=\"list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 14px;\">\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <span style=\"flex-shrink: 0; width: 20px; height: 20px; background: #F5C842; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;\">\n        <svg width=\"10\" height=\"7\" viewBox=\"0 0 10 7\" fill=\"none\"><path d=\"M1 3.5L3.5 6L9 1\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n      </span>\n      <span style=\"font-size: 16px; color: var(--color-text-primary); line-height: 1.5;\">Reduces wrinkles and fine lines</span>\n    </li>\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <span style=\"flex-shrink: 0; width: 20px; height: 20px; background: #F5C842; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;\">\n        <svg width=\"10\" height=\"7\" viewBox=\"0 0 10 7\" fill=\"none\"><path d=\"M1 3.5L3.5 6L9 1\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n      </span>\n      <span style=\"font-size: 16px; color: var(--color-text-primary); line-height: 1.5;\">Absorbs completely — nothing sitting on your face all day</span>\n    </li>\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <span style=\"flex-shrink: 0; width: 20px; height: 20px; background: #F5C842; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;\">\n        <svg width=\"10\" height=\"7\" viewBox=\"0 0 10 7\" fill=\"none\"><path d=\"M1 3.5L3.5 6L9 1\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n      </span>\n      <span style=\"font-size: 16px; color: var(--color-text-primary); line-height: 1.5;\">Skin that actually feels different within weeks</span>\n    </li>\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <span style=\"flex-shrink: 0; width: 20px; height: 20px; background: #F5C842; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-top: 2px;\">\n        <svg width=\"10\" height=\"7\" viewBox=\"0 0 10 7\" fill=\"none\"><path d=\"M1 3.5L3.5 6L9 1\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n      </span>\n      <span style=\"font-size: 16px; color: var(--color-text-primary); line-height: 1.5;\">60 seconds morning and night. Done.</span>\n    </li>\n  </ul>\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_PigjTJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "custom_liquid_YMTnpV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .social-proof-wrap {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    max-width: 600px;\n  }\n  .social-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 14px 18px;\n    display: flex;\n    align-items: center;\n    gap: 14px;\n  }\n  .avatars {\n    display: flex;\n    flex-shrink: 0;\n  }\n  .avatar {\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    overflow: hidden;\n    background: #ddd;\n  }\n  .avatar:nth-child(2) {\n    margin-left: -10px;\n  }\n  .avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n  .social-text {\n    font-size: 14px;\n    color: #222;\n    line-height: 1.5;\n  }\n  .social-text strong {\n    font-weight: 700;\n  }\n  .guarantee-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 16px 18px;\n  }\n  .guarantee-row p {\n    margin: 0;\n    font-size: 14px;\n    color: #222;\n    line-height: 1.6;\n  }\n  .guarantee-row p.gtitle {\n    font-weight: 700;\n    margin-bottom: 4px;\n  }\n</style>\n\n<div class=\"social-proof-wrap\">\n  <div class=\"social-row\">\n    <div class=\"avatars\">\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=12\" alt=\"Karim\" />\n      </div>\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=15\" alt=\"Rami\" />\n      </div>\n    </div>\n    <div class=\"social-text\">\n      <strong>Ahmad, Joe</strong> and <strong>1k+ others</strong> are using <strong>JOLIE</strong>\n    </div>\n  </div>\n  <div class=\"guarantee-row\">\n    <p class=\"gtitle\">30-Day Money-Back Guarantee</p>\n    <p>Enjoy a 30-day money-back guarantee, with less than 1% of customers requesting a refund.</p>\n  </div>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_Q4eMAn",
+        "title",
+        "price",
+        "custom_liquid_yRQmCt",
+        "text_XfnRxT",
+        "custom_liquid_H9DXEK",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_PigjTJ",
+        "related_buttons",
+        "sticky_cart",
+        "custom_liquid_YMTnpV"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_KL9pzK": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .why-section {\n    background: #f0efe8;\n    padding: 64px 24px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-align: center;\n    max-width: 680px;\n    margin: 0 auto;\n  }\n  .why-badge {\n    display: inline-block;\n    background: #f5c842;\n    color: #111;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 0.12em;\n    padding: 8px 20px;\n    border-radius: 999px;\n    margin-bottom: 24px;\n  }\n  .why-heading {\n    font-size: clamp(28px, 5vw, 46px);\n    font-weight: 900;\n    color: #111;\n    margin: 0 0 20px;\n    line-height: 1.15;\n    letter-spacing: -0.02em;\n  }\n  .why-para {\n    font-size: clamp(15px, 2.5vw, 17px);\n    color: #666;\n    line-height: 1.75;\n    max-width: 520px;\n    margin: 0 auto;\n  }\n</style>\n\n<div class=\"why-section\">\n  <div class=\"why-badge\">WHY IT WORKS</div>\n  <h2 class=\"why-heading\">Your skin already knows what it needs. We just gave it that.</h2>\n  <p class=\"why-para\">Most moisturisers are 70% water with synthetic fillers — they sit on the surface, evaporate, and do nothing. Beef tallow is molecularly identical to your skin's natural oil. It absorbs completely, rebuilds your barrier, and works at the cellular level with vitamins A, D, E and K. Four ingredients. No BS. Real results.</p>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_cqKTNy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  .rv-section {\n    background: #f0efe8;\n    padding: 56px 0;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-align: center;\n    overflow: hidden;\n  }\n  .rv-top { padding: 0 24px 40px; }\n  .rv-badge {\n    display: inline-block;\n    background: #f5c842;\n    color: #111;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 0.1em;\n    padding: 8px 20px;\n    border-radius: 999px;\n    margin-bottom: 18px;\n  }\n  .rv-heading {\n    font-size: clamp(24px, 4vw, 38px);\n    font-weight: 800;\n    color: #111;\n  }\n  .rv-track-wrap {\n    width: 100%;\n    overflow-x: scroll;\n    overflow-y: visible;\n    scrollbar-width: none;\n    -webkit-overflow-scrolling: touch;\n    cursor: grab;\n    padding: 4px 24px 16px;\n  }\n  .rv-track-wrap::-webkit-scrollbar { display: none; }\n  .rv-track {\n    display: inline-flex;\n    gap: 14px;\n    white-space: nowrap;\n  }\n  .rv-card {\n    display: inline-block;\n    vertical-align: top;\n    white-space: normal;\n    background: #fff;\n    border-radius: 16px;\n    width: 260px;\n    text-align: left;\n    overflow: hidden;\n    flex-shrink: 0;\n  }\n  .ba-wrap {\n    width: 260px;\n    height: 170px;\n    display: flex;\n    flex-direction: row;\n    overflow: hidden;\n    position: relative;\n    flex-shrink: 0;\n  }\n  .ba-wrap img {\n    width: 130px;\n    height: 170px;\n    object-fit: cover;\n    object-position: center top;\n    display: block;\n    flex-shrink: 0;\n  }\n  .ba-label {\n    position: absolute;\n    bottom: 8px;\n    font-size: 9px;\n    font-weight: 700;\n    letter-spacing: 0.07em;\n    padding: 3px 7px;\n    border-radius: 4px;\n  }\n  .ba-label.b { left: 6px; background: #111; color: #fff; }\n  .ba-label.a { right: 6px; background: #f5c842; color: #111; }\n  .rv-body { padding: 14px 14px 18px; }\n  .rv-meta {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-bottom: 8px;\n  }\n  .rv-name { font-size: 14px; font-weight: 700; color: #111; }\n  .rv-stars { color: #f5c842; font-size: 12px; }\n  .rv-tags {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n    margin-bottom: 10px;\n  }\n  .rv-tag {\n    font-size: 9px;\n    font-weight: 600;\n    color: #555;\n    border: 1px solid #ddd;\n    border-radius: 999px;\n    padding: 3px 8px;\n  }\n  .rv-quote {\n    font-size: 13px;\n    font-weight: 700;\n    color: #111;\n    margin-bottom: 6px;\n    line-height: 1.4;\n  }\n  .rv-text {\n    font-size: 12px;\n    color: #666;\n    line-height: 1.6;\n  }\n  .rv-dots {\n    display: flex;\n    justify-content: center;\n    gap: 6px;\n    margin-top: 8px;\n    padding: 0 24px;\n  }\n  .rv-dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 999px;\n    background: #ccc;\n    border: none;\n    cursor: pointer;\n    transition: all 0.25s;\n    padding: 0;\n  }\n  .rv-dot.active { background: #111; width: 20px; }\n</style>\n\n<div class=\"rv-section\">\n  <div class=\"rv-top\">\n    <div class=\"rv-badge\">2,000+ JARS SOLD</div>\n    <h2 class=\"rv-heading\">Real Results. Real Men.</h2>\n  </div>\n\n  <div class=\"rv-track-wrap\" id=\"rvWrap\">\n    <div class=\"rv-track\" id=\"rvTrack\">\n\n      <div class=\"rv-card\">\n        <div class=\"ba-wrap\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_031212_400x400_crop_center_3c434322-5b2a-48b4-b72d-c9da23b01100.png?v=1778401018\" alt=\"before\" />\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_025654_400x400_crop_center_76519663-31c8-4951-8eb0-0573f599acf9.png?v=1778401038\" alt=\"after\" />\n          <span class=\"ba-label b\">BEFORE</span>\n          <span class=\"ba-label a\">AFTER</span>\n        </div>\n        <div class=\"rv-body\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Karim, 34</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">WRINKLES REDUCED</span><span class=\"rv-tag\">GLOW</span></div>\n          <p class=\"rv-quote\">\"My wife thought I went to a clinic.\"</p>\n          <p class=\"rv-text\">6 weeks in and everyone at work is asking what I changed. Just this jar, twice a day.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"ba-wrap\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_082456_400x400_crop_center_02d3fa48-3b5b-4cc3-a803-1891a98deecc.png?v=1778401083\" alt=\"before\" />\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_082529_400x400_crop_center_e2e3b6b7-a83d-4061-9fb6-e95e7b0a1d11.png?v=1778401087\" alt=\"after\" />\n          <span class=\"ba-label b\">BEFORE</span>\n          <span class=\"ba-label a\">AFTER</span>\n        </div>\n        <div class=\"rv-body\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Rami, 41</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">DRY SKIN FIXED</span><span class=\"rv-tag\">REDNESS GONE</span></div>\n          <p class=\"rv-quote\">\"Finally something that actually works.\"</p>\n          <p class=\"rv-text\">Tried everything at the pharmacy. This is the first thing that made my skin feel genuinely different.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"ba-wrap\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_030311_400x400_crop_center_aed17ca3-665c-4832-b301-f9c768ad28ca.png?v=1778401123\" alt=\"before\" />\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_030407_400x400_crop_center_ed29e7bf-8d61-4a52-bf56-7cac2e7ea6e8.png?v=1778401126\" alt=\"after\" />\n          <span class=\"ba-label b\">BEFORE</span>\n          <span class=\"ba-label a\">AFTER</span>\n        </div>\n        <div class=\"rv-body\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Charbel, 38</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">SKIN BARRIER</span><span class=\"rv-tag\">NO MORE FLAKING</span></div>\n          <p class=\"rv-quote\">\"Sceptical at first. Not anymore.\"</p>\n          <p class=\"rv-text\">My cousin sent this from Australia. After a month the texture of my skin changed completely.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"ba-wrap\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_030100_400x400_crop_center_6ba0c06f-bde4-4a38-84c0-49b345d2fd88.png?v=1778401173\" alt=\"before\" />\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_025946_400x400_crop_center_db566d2d-bb56-4c9f-b568-bb0dc62ebe96.png?v=1778401184\" alt=\"after\" />\n          <span class=\"ba-label b\">BEFORE</span>\n          <span class=\"ba-label a\">AFTER</span>\n        </div>\n        <div class=\"rv-body\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Georges, 45</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">SUN DAMAGE</span><span class=\"rv-tag\">EVEN TONE</span></div>\n          <p class=\"rv-quote\">\"The Beirut sun does damage. This fixed it.\"</p>\n          <p class=\"rv-text\">Years of sun exposure left my skin rough. Four weeks in and my tone is more even than it's been in years.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"ba-wrap\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_081427_400x400_crop_center_18658484-4611-495b-9502-1cf5ca76d7d3.png?v=1778401242\" alt=\"before\" />\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260424_081951_400x400_crop_center_af6d1ba5-099f-4b86-ae69-5c6ab7a5a250.png?v=1778401252\" alt=\"after\" />\n          <span class=\"ba-label b\">BEFORE</span>\n          <span class=\"ba-label a\">AFTER</span>\n        </div>\n        <div class=\"rv-body\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Elie, 29</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">ACNE REDUCED</span><span class=\"rv-tag\">LESS OILY</span></div>\n          <p class=\"rv-quote\">\"Cleared up what nothing else could.\"</p>\n          <p class=\"rv-text\">Had breakouts since I was a teenager. Two months in, clearest my skin has ever been.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"rv-body\" style=\"padding-top:20px;\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Fadi, 52</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">ANTI-AGING</span></div>\n          <p class=\"rv-quote\">\"At my age I didn't expect results. I was wrong.\"</p>\n          <p class=\"rv-text\">My son ordered this as a joke. Three weeks later he's using it too. Skin hasn't looked this good since my 30s.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"rv-body\" style=\"padding-top:20px;\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Tarek, 36</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">NATURAL GLOW</span></div>\n          <p class=\"rv-quote\">\"Men in Lebanon don't talk about skincare. We should.\"</p>\n          <p class=\"rv-text\">I was embarrassed to buy it. Now I tell every guy I know. The results do all the talking.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"rv-body\" style=\"padding-top:20px;\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Jad, 31</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">REDNESS GONE</span></div>\n          <p class=\"rv-quote\">\"Razor burn gone in two weeks.\"</p>\n          <p class=\"rv-text\">I shave every day and my face was always irritated. This calmed it down completely. Nothing else came close.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"rv-body\" style=\"padding-top:20px;\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Antoine, 44</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">WRINKLES REDUCED</span></div>\n          <p class=\"rv-quote\">\"Worth every lira.\"</p>\n          <p class=\"rv-text\">Spent a lot on skincare over the years. First time I felt the money was actually justified. Skin looks younger, feels stronger.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"rv-body\" style=\"padding-top:20px;\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Ziad, 33</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">WINTER SKIN</span><span class=\"rv-tag\">HYDRATION</span></div>\n          <p class=\"rv-quote\">\"Survived the Beirut winter for the first time.\"</p>\n          <p class=\"rv-text\">Every winter my skin cracks and peels badly. Used this from October — face stayed smooth the whole season.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"rv-body\" style=\"padding-top:20px;\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Nabil, 39</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">DARK CIRCLES</span><span class=\"rv-tag\">TIRED LOOK</span></div>\n          <p class=\"rv-quote\">\"I look less tired even when I am tired.\"</p>\n          <p class=\"rv-text\">The area under my eyes was always dark and puffy. After three weeks I genuinely look more awake. My team noticed at work.</p>\n        </div>\n      </div>\n\n      <div class=\"rv-card\">\n        <div class=\"rv-body\" style=\"padding-top:20px;\">\n          <div class=\"rv-meta\"><span class=\"rv-name\">Habib, 47</span><span class=\"rv-stars\">★★★★★</span></div>\n          <div class=\"rv-tags\"><span class=\"rv-tag\">SENSITIVE SKIN</span></div>\n          <p class=\"rv-quote\">\"My skin reacts to everything. Not this.\"</p>\n          <p class=\"rv-text\">I've tried dozens of creams and always broke out. This is the first product that didn't irritate me at all. And it actually worked.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n\n  <div class=\"rv-dots\" id=\"rvDots\"></div>\n</div>\n\n<script>\n  const wrap = document.getElementById('rvWrap');\n  const track = document.getElementById('rvTrack');\n  const dotsEl = document.getElementById('rvDots');\n  const cards = track.querySelectorAll('.rv-card');\n  const count = cards.length;\n\n  for (let i = 0; i < count; i++) {\n    const d = document.createElement('button');\n    d.className = 'rv-dot' + (i === 0 ? ' active' : '');\n    d.addEventListener('click', () => {\n      wrap.scrollTo({ left: cards[i].offsetLeft - 24, behavior: 'smooth' });\n    });\n    dotsEl.appendChild(d);\n  }\n  const allDots = dotsEl.querySelectorAll('.rv-dot');\n\n  wrap.addEventListener('scroll', () => {\n    let closest = 0, minDist = Infinity;\n    cards.forEach((c, i) => {\n      const dist = Math.abs(c.offsetLeft - wrap.scrollLeft - 24);\n      if (dist < minDist) { minDist = dist; closest = i; }\n    });\n    allDots.forEach((d, i) => d.classList.toggle('active', i === closest));\n  });\n\n  let drag = false, startX = 0, startScroll = 0;\n  wrap.addEventListener('mousedown', e => {\n    drag = true; startX = e.pageX; startScroll = wrap.scrollLeft;\n    wrap.style.cursor = 'grabbing'; e.preventDefault();\n  });\n  window.addEventListener('mouseup', () => { drag = false; wrap.style.cursor = 'grab'; });\n  window.addEventListener('mousemove', e => {\n    if (!drag) return;\n    wrap.scrollLeft = startScroll - (e.pageX - startX);\n  });\n</script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_6Xj9FQ": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_QJYrYr": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_QJYrYr"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural-Looking Freckles (No Skill, No Effort)",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tired of <strong>uneven </strong>dots, streaky pencils, or freckles that look fake by lunchtime? This multi-point freckle stamp was built for real <strong>humans </strong>— not makeup artists.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_pD6Mdt": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_CR4hbT": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CR4hbT"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_QWbLRi": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  .tl-section {\n    background: #f0efe8;\n    padding: 56px 20px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-align: center;\n  }\n  .tl-badge {\n    display: inline-block;\n    background: #f5c842;\n    color: #111;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 0.12em;\n    padding: 8px 20px;\n    border-radius: 999px;\n    margin-bottom: 16px;\n  }\n  .tl-heading {\n    font-size: clamp(28px, 6vw, 48px);\n    font-weight: 900;\n    color: #111;\n    margin-bottom: 40px;\n    letter-spacing: -0.02em;\n    line-height: 1.1;\n  }\n  .tl-tabs {\n    display: flex;\n    justify-content: center;\n    flex-wrap: wrap;\n    border-bottom: 1.5px solid #ddd;\n    max-width: 860px;\n    margin: 0 auto;\n  }\n  .tl-tab {\n    background: none;\n    border: none;\n    border-bottom: 3px solid transparent;\n    padding: clamp(8px, 2vw, 12px) clamp(8px, 2.5vw, 18px);\n    font-size: clamp(9px, 1.8vw, 12px);\n    font-weight: 800;\n    letter-spacing: 0.1em;\n    color: #aaa;\n    cursor: pointer;\n    margin-bottom: -1.5px;\n    transition: color 0.2s, border-color 0.2s;\n    white-space: nowrap;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  }\n  .tl-tab.active {\n    color: #111;\n    border-bottom-color: #f5c842;\n  }\n  .tl-panels {\n    max-width: 860px;\n    margin: 0 auto;\n  }\n  .tl-panel {\n    display: none;\n    background: #fff;\n    border-radius: 0 0 16px 16px;\n    padding: clamp(20px, 4vw, 40px) clamp(18px, 4vw, 36px);\n    text-align: left;\n    gap: clamp(20px, 4vw, 40px);\n    align-items: stretch;\n  }\n  .tl-panel.active {\n    display: flex;\n    flex-wrap: wrap;\n  }\n  .tl-left {\n    flex: 1 1 260px;\n    min-width: 0;\n  }\n  .tl-right {\n    flex: 1 1 220px;\n    min-width: 0;\n  }\n  .tl-title {\n    font-size: clamp(18px, 3.5vw, 24px);\n    font-weight: 900;\n    color: #111;\n    margin-bottom: 12px;\n    letter-spacing: -0.01em;\n    line-height: 1.2;\n  }\n  .tl-desc {\n    font-size: clamp(13px, 2vw, 15px);\n    color: #888;\n    line-height: 1.7;\n    margin-bottom: 20px;\n  }\n  .tl-point {\n    font-size: clamp(13px, 2vw, 15px);\n    font-weight: 700;\n    color: #111;\n    margin-bottom: 10px;\n    display: flex;\n    align-items: flex-start;\n    gap: 8px;\n    line-height: 1.4;\n  }\n  .tl-point::before {\n    content: '→';\n    flex-shrink: 0;\n    color: #111;\n  }\n  .tl-quote-box {\n    background: #fdf9e3;\n    border-left: 4px solid #f5c842;\n    border-radius: 12px;\n    padding: clamp(18px, 3vw, 28px) clamp(16px, 3vw, 24px);\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n  .tl-quote {\n    font-size: clamp(14px, 2.5vw, 18px);\n    font-weight: 800;\n    color: #111;\n    line-height: 1.5;\n    margin-bottom: 14px;\n    letter-spacing: -0.01em;\n  }\n  .tl-author {\n    font-size: clamp(12px, 1.8vw, 14px);\n    color: #999;\n    font-weight: 500;\n  }\n</style>\n\n<div class=\"tl-section\">\n  <div class=\"tl-badge\">WHAT TO EXPECT</div>\n  <h2 class=\"tl-heading\">Your Skin. Day By Day.</h2>\n\n  <div class=\"tl-tabs\" id=\"tlTabs\">\n    <button class=\"tl-tab active\" data-tab=\"0\">DAY 1</button>\n    <button class=\"tl-tab\" data-tab=\"1\">DAY 3</button>\n    <button class=\"tl-tab\" data-tab=\"2\">WEEK 1</button>\n    <button class=\"tl-tab\" data-tab=\"3\">MONTH 1</button>\n    <button class=\"tl-tab\" data-tab=\"4\">MONTH 3</button>\n    <button class=\"tl-tab\" data-tab=\"5\">ONGOING</button>\n  </div>\n\n  <div class=\"tl-panels\">\n\n    <div class=\"tl-panel active\" data-panel=\"0\">\n      <div class=\"tl-left\">\n        <p class=\"tl-title\">First Application</p>\n        <p class=\"tl-desc\">Beef tallow begins absorbing immediately — no greasy residue, no sitting on the surface. Your skin recognises it from the first use.</p>\n        <div class=\"tl-point\">Skin feels immediately more hydrated</div>\n        <div class=\"tl-point\">Tightness and dryness start to ease</div>\n        <div class=\"tl-point\">Absorbs completely — no film left behind</div>\n      </div>\n      <div class=\"tl-right\">\n        <div class=\"tl-quote-box\">\n          <p class=\"tl-quote\">\"Wasn't expecting it to absorb that fast. Felt different straight away.\"</p>\n          <p class=\"tl-author\">— Karim, 44</p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"tl-panel\" data-panel=\"1\">\n      <div class=\"tl-left\">\n        <p class=\"tl-title\">Skin Barrier Repair Begins</p>\n        <p class=\"tl-desc\">Raw honey's antibacterial properties activate. Beeswax creates a breathable protective layer. Redness and irritation start calming down.</p>\n        <div class=\"tl-point\">Redness visibly reduced</div>\n        <div class=\"tl-point\">Skin feels noticeably calmer</div>\n        <div class=\"tl-point\">First signs of natural glow returning</div>\n      </div>\n      <div class=\"tl-right\">\n        <div class=\"tl-quote-box\">\n          <p class=\"tl-quote\">\"The burning stopped by day three. I hadn't had a day without it in years.\"</p>\n          <p class=\"tl-author\">— Charbel, 52</p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"tl-panel\" data-panel=\"2\">\n      <div class=\"tl-left\">\n        <p class=\"tl-title\">Visible Skin Renewal</p>\n        <p class=\"tl-desc\">Vitamins A, D, E and K begin supporting cell turnover. Fine lines start to soften. Skin texture improves noticeably to the touch.</p>\n        <div class=\"tl-point\">Fine lines visibly softer</div>\n        <div class=\"tl-point\">Skin texture smoother to touch</div>\n        <div class=\"tl-point\">Complexion looks more even and awake</div>\n      </div>\n      <div class=\"tl-right\">\n        <div class=\"tl-quote-box\">\n          <p class=\"tl-quote\">\"After a week my wife said I looked different. She couldn't figure out what it was.\"</p>\n          <p class=\"tl-author\">— Rami, 41</p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"tl-panel\" data-panel=\"3\">\n      <div class=\"tl-left\">\n        <p class=\"tl-title\">Transformation Starts Showing</p>\n        <p class=\"tl-desc\">Skin barrier is rebuilding. Sebum production starts balancing. Sun damage begins fading. People around you start noticing before you mention anything.</p>\n        <div class=\"tl-point\">Wrinkles and fine lines noticeably reduced</div>\n        <div class=\"tl-point\">Sun damage and dark spots fading</div>\n        <div class=\"tl-point\">People start noticing before you say anything</div>\n      </div>\n      <div class=\"tl-right\">\n        <div class=\"tl-quote-box\">\n          <p class=\"tl-quote\">\"Someone accused me of getting Botox at 30 days. I've never touched it.\"</p>\n          <p class=\"tl-author\">— Georges, 48</p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"tl-panel\" data-panel=\"4\">\n      <div class=\"tl-left\">\n        <p class=\"tl-title\">Your Skin Is Healing Itself</p>\n        <p class=\"tl-desc\">The skin barrier is fully restored. Your skin is now producing and regulating its own oils properly — the way it was designed to before synthetic products disrupted it.</p>\n        <div class=\"tl-point\">Skin looks years younger</div>\n        <div class=\"tl-point\">Chronic irritation, redness, dryness — gone</div>\n        <div class=\"tl-point\">Confidence in your appearance returns</div>\n      </div>\n      <div class=\"tl-right\">\n        <div class=\"tl-quote-box\">\n          <p class=\"tl-quote\">\"Three months in and I look better than I did at 35. The Beirut sun had destroyed my skin. Not anymore.\"</p>\n          <p class=\"tl-author\">— Elie, 54</p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"tl-panel\" data-panel=\"5\">\n      <div class=\"tl-left\">\n        <p class=\"tl-title\">A New Version Of Your Skin</p>\n        <p class=\"tl-desc\">Men who continue using LEGACARE report their skin keeps improving gradually and naturally. The longer you use it, the better it gets. Most never go back.</p>\n        <div class=\"tl-point\">Skin that gets compliments without explanation</div>\n        <div class=\"tl-point\">A face that matches how you actually feel</div>\n        <div class=\"tl-point\">2,000+ men never went back to anything else</div>\n      </div>\n      <div class=\"tl-right\">\n        <div class=\"tl-quote-box\">\n          <p class=\"tl-quote\">\"I'm on my fourth jar. My friends in Beirut all switched after seeing my skin.\"</p>\n          <p class=\"tl-author\">— Fadi, 58</p>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\n  document.getElementById('tlTabs').addEventListener('click', function(e) {\n    const tab = e.target.closest('.tl-tab');\n    if (!tab) return;\n    const idx = tab.dataset.tab;\n    document.querySelectorAll('.tl-tab').forEach(t => t.classList.remove('active'));\n    document.querySelectorAll('.tl-panel').forEach(p => p.classList.remove('active'));\n    tab.classList.add('active');\n    document.querySelector('.tl-panel[data-panel=\"' + idx + '\"]').classList.add('active');\n  });\n</script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_PyWqQE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  .faq-section {\n    background: #f0efe8;\n    padding: 64px 24px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-align: center;\n  }\n  .faq-heading {\n    font-size: clamp(22px, 5vw, 40px);\n    font-weight: 900;\n    color: #111;\n    letter-spacing: -0.01em;\n    margin-bottom: 14px;\n    text-transform: uppercase;\n  }\n  .faq-sub {\n    font-size: 15px;\n    color: #888;\n    line-height: 1.6;\n    max-width: 560px;\n    margin: 0 auto 48px;\n  }\n  .faq-list {\n    max-width: 720px;\n    margin: 0 auto;\n    text-align: left;\n  }\n  .faq-item {\n    border-top: 1px solid #ddd;\n    background: transparent;\n  }\n  .faq-item:last-child {\n    border-bottom: 1px solid #ddd;\n  }\n  .faq-question {\n    width: 100%;\n    background: transparent;\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 20px 4px;\n    cursor: pointer;\n    gap: 16px;\n    text-align: left;\n  }\n  .faq-question span {\n    font-size: 15px;\n    font-weight: 700;\n    color: #111;\n    line-height: 1.4;\n    flex: 1;\n  }\n  .faq-icon {\n    font-size: 22px;\n    font-weight: 300;\n    color: #111;\n    flex-shrink: 0;\n    line-height: 1;\n    transition: transform 0.25s;\n    width: 24px;\n    text-align: center;\n  }\n  .faq-item.open .faq-icon {\n    transform: rotate(45deg);\n  }\n  .faq-item.open .faq-question {\n    background: #ece9e0;\n    padding-left: 12px;\n    padding-right: 12px;\n    border-radius: 4px 4px 0 0;\n  }\n  .faq-answer {\n    display: none;\n    font-size: 14px;\n    color: #555;\n    line-height: 1.75;\n    padding: 16px 12px 22px;\n    background: #ece9e0;\n    border-radius: 0 0 4px 4px;\n  }\n  .faq-item.open .faq-answer {\n    display: block;\n  }\n</style>\n\n<div class=\"faq-section\">\n  <h2 class=\"faq-heading\">Frequently Asked Questions</h2>\n  <p class=\"faq-sub\">We understand that investing in your skin is a big decision. That's why we're here to help you make an informed choice.</p>\n\n  <div class=\"faq-list\" id=\"faqList\">\n\n    <div class=\"faq-item open\">\n      <button class=\"faq-question\">\n        <span>What ingredients are in the Tallow Balm?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        Only 4 natural ingredients: grass-fed, grass-finished beef tallow, cold-pressed organic olive oil, organic manuka honey, and organic beeswax. No fillers, no chemicals — just raw, unadulterated skin nutrition that helps your skin thrive naturally.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>Do your products contain any artificial fragrances?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        No — completely free from artificial fragrances. Any scent comes naturally from the ingredients themselves. This makes it ideal for those with sensitivities to synthetic fragrances or anyone seeking truly natural skincare.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>Is this suitable for sensitive skin?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        Yes. The natural fat profile in grass-fed tallow closely resembles human skin cells, making it highly compatible and gentle. Many customers with eczema, rosacea, and other skin sensitivities report significant improvements after switching to this balm.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>Does the balm have a smell?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        The Unscented version has a very light, natural scent from the pure ingredients — no added fragrance. Most people describe it as neutral and barely noticeable once applied. If you choose Citrus or Lavender, the scent comes only from natural essential oils — gentle, clean, and never overpowering.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>How do I apply the Tallow Balm?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        Take a small amount — about the size of a pea for the face — and warm it between your fingertips. It melts slightly with body heat, making it easy to spread. Gently massage into clean skin using upward, circular motions until fully absorbed. A little goes a long way.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>How often should I use it?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        For best results, use 1–2 times daily on clean skin. Most men use it morning and night. Those with very dry skin may benefit from more frequent application, while those with oilier skin might prefer once daily — typically in the evening.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>Can I use the Tallow Balm on my face?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        Absolutely. Its natural composition mirrors human skin cells, making it ideal for facial use. It's deeply moisturising without clogging pores and helps balance oil production, reduce fine lines, and soothe irritation.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>Will this cause breakouts?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        No. Grass-fed beef tallow is bioidentical to human sebum — your pores recognise it and absorb it completely. Unlike synthetic oils that sit on the surface, tallow penetrates naturally and is non-comedogenic. Many customers with acne-prone or oily skin actually report clearer skin after switching from conventional moisturisers.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>What is your return policy?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        We offer a 90-Day Results Guarantee — not a standard return window. If you don't see visible improvement within 90 days of consistent use, contact us and we'll refund every cent. No questions asked. No return required. You don't even need to send the jar back.\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\">\n        <span>When will I receive my order?</span>\n        <div class=\"faq-icon\">+</div>\n      </button>\n      <div class=\"faq-answer\">\n        All orders are processed and shipped within 1–2 business days. Once shipped, you'll receive a tracking link automatically. Estimated delivery is 3–5 business days. No hidden fees or surprise charges at checkout.\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\n  document.getElementById('faqList').addEventListener('click', function(e) {\n    const btn = e.target.closest('.faq-question');\n    if (!btn) return;\n    const item = btn.closest('.faq-item');\n    const isOpen = item.classList.contains('open');\n    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));\n    if (!isOpen) item.classList.add('open');\n  });\n</script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "custom_liquid_KL9pzK",
+    "custom_liquid_cqKTNy",
+    "scrolling_promotion_6Xj9FQ",
+    "image_with_text_X6KRyA",
+    "scrolling_promotion_pD6Mdt",
+    "custom_liquid_QWbLRi",
+    "custom_liquid_PyWqQE"
+  ]
+}
