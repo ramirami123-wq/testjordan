@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_Q4eMAn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #9e132b; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>394+</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_yRQmCt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>LEVIDE Knee 2.0 Features Bar</title>\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  body {\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n    background: #fff;\n  }\n\n  .lv-features-wrap {\n    padding: 28px 20px 24px;\n    background: #fff;\n    border-bottom: 1px solid #e8e8e8;\n  }\n\n  .lv-tagline {\n    font-size: 15px;\n    color: #333;\n    line-height: 1.55;\n    margin-bottom: 24px;\n    max-width: 520px;\n  }\n\n  .lv-features {\n    display: flex;\n    gap: 0;\n    flex-wrap: nowrap;\n  }\n\n  .lv-feat {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 10px;\n    padding-right: 12px;\n  }\n  .lv-feat:last-child { padding-right: 0; }\n\n  .lv-icon {\n    width: 44px;\n    height: 44px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .lv-icon svg {\n    width: 100%;\n    height: 100%;\n  }\n\n  .lv-label {\n    font-size: 13px;\n    color: #1a1a1a;\n    line-height: 1.35;\n    font-weight: 400;\n  }\n\n  @media (max-width: 480px) {\n    .lv-tagline { font-size: 14px; margin-bottom: 20px; }\n    .lv-feat { padding-right: 8px; }\n    .lv-icon { width: 36px; height: 36px; }\n    .lv-label { font-size: 12px; }\n  }\n</style>\n</head>\n<body>\n\n<div class=\"lv-features-wrap\">\n  <p class=\"lv-tagline\">4-in-1 knee therapy device combines heat, vibration, red light, and compression to reduce knee pain and stiffness by 47% in just 7 days.</p>\n  <div class=\"lv-features\">\n\n    <!-- Heat Therapy -->\n    <div class=\"lv-feat\">\n      <div class=\"lv-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Flame icon -->\n          <path d=\"M22 38c-6.627 0-12-5.373-12-12 0-4.5 2.5-8.5 5-11 0 3 1.5 5 3 6 0-4 2-8 6-11 0 5 3 8 3 11 1.5-1.5 2-4 2-4 2 3 3 6 3 9 0 6.627-5.373 12-10 12z\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          <circle cx=\"22\" cy=\"28\" r=\"3\" stroke=\"#1a1a1a\" stroke-width=\"1.4\"/>\n        </svg>\n      </div>\n      <span class=\"lv-label\">Heat<br>Therapy</span>\n    </div>\n\n    <!-- Vibration -->\n    <div class=\"lv-feat\">\n      <div class=\"lv-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Vibration / wave icon -->\n          <path d=\"M6 22c2-4 4-4 6 0s4 4 6 0 4-4 6 0 4 4 6 0\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          <path d=\"M6 30c2-3 4-3 6 0s4 3 6 0 4-3 6 0 4 3 6 0\" stroke=\"#1a1a1a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/>\n          <path d=\"M6 14c2-3 4-3 6 0s4 3 6 0 4-3 6 0 4 3 6 0\" stroke=\"#1a1a1a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/>\n        </svg>\n      </div>\n      <span class=\"lv-label\">Vibration<br>Massage</span>\n    </div>\n\n    <!-- Red Light Therapy -->\n    <div class=\"lv-feat\">\n      <div class=\"lv-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Sun / light rays icon -->\n          <circle cx=\"22\" cy=\"22\" r=\"6\" stroke=\"#1a1a1a\" stroke-width=\"1.6\"/>\n          <line x1=\"22\" y1=\"6\" x2=\"22\" y2=\"10\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"22\" y1=\"34\" x2=\"22\" y2=\"38\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"6\" y1=\"22\" x2=\"10\" y2=\"22\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"34\" y1=\"22\" x2=\"38\" y2=\"22\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"10.93\" y1=\"10.93\" x2=\"13.76\" y2=\"13.76\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"30.24\" y1=\"30.24\" x2=\"33.07\" y2=\"33.07\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"33.07\" y1=\"10.93\" x2=\"30.24\" y2=\"13.76\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"13.76\" y1=\"30.24\" x2=\"10.93\" y2=\"33.07\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n        </svg>\n      </div>\n      <span class=\"lv-label\">Red Light<br>Therapy</span>\n    </div>\n\n    <!-- Compression -->\n    <div class=\"lv-feat\">\n      <div class=\"lv-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Knee wrap / compression icon -->\n          <rect x=\"12\" y=\"14\" width=\"20\" height=\"16\" rx=\"8\" stroke=\"#1a1a1a\" stroke-width=\"1.6\"/>\n          <line x1=\"12\" y1=\"20\" x2=\"32\" y2=\"20\" stroke=\"#1a1a1a\" stroke-width=\"1\" stroke-linecap=\"round\" opacity=\"0.4\"/>\n          <line x1=\"12\" y1=\"24\" x2=\"32\" y2=\"24\" stroke=\"#1a1a1a\" stroke-width=\"1\" stroke-linecap=\"round\" opacity=\"0.4\"/>\n          <line x1=\"18\" y1=\"10\" x2=\"18\" y2=\"14\" stroke=\"#1a1a1a\" stroke-width=\"1.4\" stroke-linecap=\"round\"/>\n          <line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"14\" stroke=\"#1a1a1a\" stroke-width=\"1.4\" stroke-linecap=\"round\"/>\n          <line x1=\"18\" y1=\"30\" x2=\"18\" y2=\"34\" stroke=\"#1a1a1a\" stroke-width=\"1.4\" stroke-linecap=\"round\"/>\n          <line x1=\"26\" y1=\"30\" x2=\"26\" y2=\"34\" stroke=\"#1a1a1a\" stroke-width=\"1.4\" stroke-linecap=\"round\"/>\n        </svg>\n      </div>\n      <span class=\"lv-label\">Adjustable<br>Compression</span>\n    </div>\n\n  </div>\n</div>\n\n</body>\n</html>"
+          }
+        },
+        "text_XfnRxT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Transform your face with this vegan, cruelty-free foundation designed to deliver the perfect match of your skin tone.",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_H9DXEK": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>\n  .check-list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  }\n  .check-list li {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n    font-size: 15px;\n    color: #222222;\n    line-height: 1.5;\n    padding: 8px 0;\n  }\n  .check-list li svg {\n    flex-shrink: 0;\n    margin-top: 1px;\n    width: 20px;\n    height: 20px;\n  }\n</style>\n<ul class=\"check-list\">\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Adapts to your lip tone — a shade that's uniquely yours, every time\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Hydrates like a balm — no dryness, no fine lines, no settling\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Lasts 6–8 hours — through coffee, meals, and everything in between\n  </li>\n</ul>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_zpUGrq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .stock-warning {\n    border: 2px dashed #e05252;\n    border-radius: 10px;\n    background: #fff5f5;\n    padding: 16px 20px;\n    max-width: 600px;\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n  }\n  .stock-warning-title {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 14px;\n    font-weight: 800;\n    color: #c0392b;\n    margin-bottom: 10px;\n    text-transform: uppercase;\n    letter-spacing: 0.4px;\n  }\n  .stock-warning-title .dot {\n    width: 18px;\n    height: 18px;\n    background: #c0392b;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #fff;\n    font-size: 12px;\n    font-weight: 900;\n    flex-shrink: 0;\n  }\n  .stock-warning p {\n    font-size: 14px;\n    color: #333;\n    line-height: 1.6;\n  }\n  .stock-warning p u {\n    font-weight: 700;\n    text-underline-offset: 2px;\n  }\n  .stock-warning p strong {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"stock-warning\">\n  <div class=\"stock-warning-title\">\n    <div class=\"dot\">!</div>\n    WARNING: LOW STOCK NOTICE\n  </div>\n  <p>\n    This product sold out <u>12 times</u> last year. Take advantage of the <strong>limited offer</strong> before it's gone again.\n  </p>\n</div>"
+          }
+        },
+        "custom_liquid_PigjTJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "custom_liquid_YMTnpV": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>\n  .social-proof-wrap {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    max-width: 600px;\n  }\n  .social-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 14px 18px;\n    display: flex;\n    align-items: center;\n    gap: 14px;\n  }\n  .avatars {\n    display: flex;\n    flex-shrink: 0;\n  }\n  .avatar {\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    overflow: hidden;\n    background: #ddd;\n  }\n  .avatar:nth-child(2) {\n    margin-left: -10px;\n  }\n  .avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n  .social-text {\n    font-size: 14px;\n    color: #222;\n    line-height: 1.5;\n  }\n  .social-text strong {\n    font-weight: 700;\n  }\n  .guarantee-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 16px 18px;\n  }\n  .guarantee-row p {\n    margin: 0;\n    font-size: 14px;\n    color: #222;\n    line-height: 1.6;\n  }\n  .guarantee-row p.gtitle {\n    font-weight: 700;\n    margin-bottom: 4px;\n  }\n</style>\n\n<div class=\"social-proof-wrap\">\n\n  <div class=\"social-row\">\n    <div class=\"avatars\">\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=47\" alt=\"Christine\" />\n      </div>\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=32\" alt=\"Karen\" />\n      </div>\n    </div>\n    <div class=\"social-text\">\n      <strong>Christine, Karen</strong> and <strong>41k+ others</strong> are using <strong>JOLIE</strong>\n    </div>\n  </div>\n\n  <div class=\"guarantee-row\">\n    <p class=\"gtitle\">30-Day Money-Back Guarantee</p>\n    <p>That's how confident we are in your results. But if you're not thrilled, send it back and we'll refund your purchase.</p>\n  </div>\n\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_Q4eMAn",
+        "title",
+        "price",
+        "custom_liquid_yRQmCt",
+        "text_XfnRxT",
+        "custom_liquid_H9DXEK",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_zpUGrq",
+        "custom_liquid_PigjTJ",
+        "related_buttons",
+        "sticky_cart",
+        "custom_liquid_YMTnpV"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": false,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_cqKTNy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>LEVIDE™ 4 in 1 Knee Therapy Device</title>\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  :root {\n    --black: #111827;\n    --white: #ffffff;\n    --gray-light: #f5f6f7;\n    --gray-mid: #e0e0e0;\n    --gray-text: #666;\n    --accent: #c0392b;\n    --accent-dark: #96281b;\n    --green: #1a7f5a;\n    --gold: #f4a261;\n    --font: 'Helvetica Neue', Arial, sans-serif;\n  }\n\n  body { font-family: var(--font); color: var(--black); background: var(--white); line-height: 1.6; }\n\n  /* ── CUSTOMER BANNER ── */\n  .customer-banner {\n    background: var(--black);\n    color: var(--white);\n    padding: 14px 20px;\n    text-align: center;\n    font-size: 14px;\n    font-weight: 600;\n    letter-spacing: 0.5px;\n    width: 100%;\n  }\n  .customer-banner span { color: var(--gold); }\n\n  /* ── SECTION TITLES ── */\n  .section-title {\n    font-size: 30px; font-weight: 800; text-align: center;\n    margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px;\n  }\n  .section-subtitle {\n    text-align: center; color: var(--gray-text); font-size: 16px;\n    margin-bottom: 50px; max-width: 680px; margin-left: auto; margin-right: auto;\n  }\n\n  /* ── FEEL BETTER ── */\n  .feel-section { padding: 80px 5%; background: var(--white); }\n  .feel-inner {\n    display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;\n  }\n  .feel-img img { width: 100%; border-radius: 14px; object-fit: cover; height: 520px; }\n  .feel-text h2 { font-size: 32px; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }\n  .feel-text p { font-size: 16px; color: #444; margin-bottom: 20px; line-height: 1.7; }\n  .feel-text ul { list-style: none; padding: 0; }\n  .feel-text ul li {\n    padding: 10px 0; font-size: 15px; border-bottom: 1px solid var(--gray-mid);\n    display: flex; align-items: flex-start; gap: 10px;\n  }\n  .feel-text ul li::before {\n    content: \"✓\"; color: var(--green); font-weight: 900; font-size: 17px;\n    flex-shrink: 0; margin-top: 1px;\n  }\n\n  /* ── TESTIMONIAL QUOTE ── */\n  .quote-box {\n    background: var(--gray-light); border-left: 5px solid var(--accent);\n    padding: 24px 28px; border-radius: 0 12px 12px 0; margin-top: 32px;\n  }\n  .quote-box p { font-style: italic; font-size: 16px; color: #333; margin-bottom: 12px; }\n  .quote-author { display: flex; align-items: center; gap: 12px; }\n  .avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }\n  .author-info strong { display: block; font-size: 14px; font-weight: 700; }\n  .author-info span { font-size: 12px; color: var(--gray-text); }\n  .stars { color: var(--gold); font-size: 14px; letter-spacing: 2px; }\n\n  /* ── HOW IT WORKS (dark) ── */\n  .how-section { background: var(--black); padding: 80px 5%; color: var(--white); }\n  .how-section .section-title { color: var(--white); }\n  .how-section .section-subtitle { color: rgba(255,255,255,0.6); }\n  .how-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 28px; }\n  .how-card {\n    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);\n    border-radius: 14px; padding: 32px 24px; text-align: center;\n  }\n  .how-card .icon-wrap {\n    width: 64px; height: 64px; background: var(--accent); border-radius: 50%;\n    display: flex; align-items: center; justify-content: center;\n    margin: 0 auto 20px; font-size: 28px;\n  }\n  .how-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 10px; color: var(--white); text-transform: uppercase; letter-spacing: 0.5px; }\n  .how-card p { font-size: 14px; color: rgba(255,255,255,0.65); line-height: 1.6; }\n\n  /* ── V1 vs V2 ── */\n  .upgrade-section { background: var(--gray-light); padding: 80px 5%; }\n  .upgrade-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 40px; }\n  .upgrade-card { background: var(--white); border-radius: 14px; overflow: hidden; border: 2px solid var(--gray-mid); }\n  .upgrade-card.winner { border-color: var(--black); }\n  .upgrade-card-header { padding: 18px 24px; font-size: 18px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; background: var(--gray-mid); color: var(--black); }\n  .upgrade-card.winner .upgrade-card-header { background: var(--black); color: var(--white); }\n  .upgrade-card img { width: 100%; height: 220px; object-fit: contain; padding: 16px; background: #fafafa; display: block; }\n  .upgrade-list { list-style: none; padding: 20px 24px; }\n  .upgrade-list li { padding: 9px 0; font-size: 14px; border-bottom: 1px solid #f0f0f0; display: flex; align-items: center; gap: 10px; }\n  .upgrade-list li:last-child { border-bottom: none; }\n  .check-green { color: var(--green); font-weight: 900; font-size: 16px; }\n  .check-red   { color: var(--accent); font-weight: 900; font-size: 16px; }\n\n  /* ── RESULTS ── */\n  .results-section { padding: 80px 5%; background: var(--white); }\n  .results-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }\n  .results-img img { width: 100%; border-radius: 14px; height: 500px; object-fit: cover; }\n  .stats-list { display: flex; flex-direction: column; gap: 28px; }\n  .stat-item { display: flex; align-items: flex-start; gap: 20px; }\n  .stat-number { font-size: 52px; font-weight: 900; color: var(--accent); line-height: 1; flex-shrink: 0; min-width: 90px; }\n  .stat-desc { font-size: 15px; color: #444; padding-top: 10px; line-height: 1.5; }\n  .stat-note { font-size: 12px; color: var(--gray-text); margin-top: 24px; font-style: italic; }\n\n  /* ── EXPERT TRUST ── */\n  .expert-section { background: var(--gray-light); padding: 80px 5%; text-align: center; }\n  .expert-img { border-radius: 16px; overflow: hidden; }\n  .expert-img img { width: 100%; display: block; }\n\n  /* ── GUARANTEE ── */\n  .guarantee-section { background: var(--black); color: var(--white); padding: 80px 5%; text-align: center; }\n  .guarantee-section h2 { font-size: 30px; font-weight: 800; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px; }\n  .guarantee-section > p { font-size: 17px; color: rgba(255,255,255,0.75); max-width: 680px; margin: 0 auto 48px; line-height: 1.7; }\n  .trust-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }\n  .trust-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 24px 16px; }\n  .trust-card .trust-icon { font-size: 32px; margin-bottom: 12px; }\n  .trust-card h4 { font-size: 14px; font-weight: 700; color: var(--white); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.3px; }\n  .trust-card p { font-size: 12px; color: rgba(255,255,255,0.5); margin: 0; }\n\n  /* ── RESPONSIVE ── */\n  @media (max-width: 900px) {\n    .feel-inner, .results-inner, .upgrade-grid { grid-template-columns: 1fr; }\n    .feel-img img, .results-img img { height: 320px; }\n    .how-grid { grid-template-columns: 1fr; }\n    .trust-grid { grid-template-columns: 1fr 1fr; gap: 14px; }\n    .section-title { font-size: 24px; }\n    .stat-number { font-size: 40px; }\n  }\n\n  @media (max-width: 480px) {\n    .feel-section, .how-section, .upgrade-section,\n    .results-section, .expert-section, .guarantee-section { padding: 50px 4%; }\n    .trust-grid { grid-template-columns: 1fr 1fr; gap: 12px; }\n    .trust-card { padding: 18px 12px; }\n    .trust-card .trust-icon { font-size: 26px; }\n    .trust-card h4 { font-size: 12px; }\n    .trust-card p { font-size: 11px; }\n    .guarantee-section h2 { font-size: 22px; }\n    .guarantee-section > p { font-size: 15px; }\n    .feel-text h2 { font-size: 24px; }\n    .stat-number { font-size: 36px; min-width: 72px; }\n  }\n</style>\n</head>\n<body>\n\n<!-- ── BANNER ── -->\n<div class=\"customer-banner\">🔥 Over <span>50,000+</span> Knees Relieved — Clinically Backed</div>\n\n<!-- ── FEEL BETTER AGAIN ── -->\n<section class=\"feel-section\">\n  <div class=\"feel-inner\">\n    <div class=\"feel-img\">\n      <img src=\"https://levidecupp.com/cdn/shop/files/2_bcfb825b-7d93-4c88-b39b-758b998cae16.png?v=1744455520\" alt=\"LEVIDE Knee 2.0 in use\" />\n    </div>\n    <div class=\"feel-text\">\n      <h2>Move Freely Without Knee Pain Again</h2>\n      <p>Whether it's climbing stairs, playing with your kids, or simply getting through your day — knee pain shouldn't stop you. LEVIDE Knee 2.0 targets the root cause of your pain with clinically backed technology, right from home.</p>\n      <p>Using <strong>medical-grade 850nm infrared light</strong>, three levels of heat, and gentle vibration, it penetrates deep into tissue to reduce inflammation, rebuild strength, and restore mobility — in as little as 7 days.</p>\n      <ul>\n        <li><div><strong>Reduces pain & inflammation</strong> — Infrared therapy penetrates 3–7cm into tissue to target deep-seated inflammation at the source.</div></li>\n        <li><div><strong>Restores mobility</strong> — Heat therapy relaxes stiff muscles and joints, improving flexibility and ease of movement.</div></li>\n        <li><div><strong>Strengthens joints</strong> — Combined red light & heat increases cellular regeneration by up to 200% for faster recovery.</div></li>\n        <li><div><strong>Boosts circulation</strong> — Gentle vibration enhances blood flow and promotes healing from the inside out.</div></li>\n        <li><div><strong>Cordless & portable</strong> — Type-C rechargeable, lasts 2–5 hours, use it anywhere at home or on the go.</div></li>\n      </ul>\n      <div class=\"quote-box\">\n        <p>\"I started using LEVIDE every night for 10 minutes and within a week, I felt a real difference. Less pain, more movement, no BS. It's part of my routine now.\"</p>\n        <div class=\"quote-author\">\n          <img class=\"avatar\" src=\"https://levidecupp.com/cdn/shop/files/17.png?v=1743225237\" alt=\"Michael T.\" />\n          <div class=\"author-info\">\n            <strong>Michael T.</strong>\n            <span>Houston, TX — Verified buyer</span>\n            <div class=\"stars\">★ ★ ★ ★ ★</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<!-- ── HOW IT WORKS ── -->\n<section class=\"how-section\">\n  <p class=\"section-title\">How LEVIDE Works</p>\n  <p class=\"section-subtitle\">Three science-backed therapies working together inside one device.</p>\n  <div class=\"how-grid\">\n    <div class=\"how-card\">\n      <div class=\"icon-wrap\">💡</div>\n      <h3>Red Light Therapy</h3>\n      <p>Medical-grade 850nm infrared light penetrates 3–7cm into tissue, targeting inflammation and accelerating cellular repair deep at the source.</p>\n    </div>\n    <div class=\"how-card\">\n      <div class=\"icon-wrap\">🔥</div>\n      <h3>Heat Therapy</h3>\n      <p>3 heat levels (105°F, 120°F, 140°F) relax stiff muscles and joints, improving circulation and loosening tight areas for greater range of motion.</p>\n    </div>\n    <div class=\"how-card\">\n      <div class=\"icon-wrap\">〰️</div>\n      <h3>Vibration Massage</h3>\n      <p>3 vibration settings enhance blood flow, reduce soreness, and deliver a soothing massage effect for faster recovery after every session.</p>\n    </div>\n  </div>\n</section>\n\n<!-- ── V1 vs V2 ── -->\n<section class=\"upgrade-section\">\n  <p class=\"section-title\">What's New in Version 2.0?</p>\n  <p class=\"section-subtitle\">We took everything that worked in Version 1 — and made it significantly better.</p>\n  <div class=\"upgrade-grid\">\n    <div class=\"upgrade-card winner\">\n      <div class=\"upgrade-card-header\">✅ LEVIDE Knee 2.0 — New</div>\n      <img src=\"https://levidecupp.com/cdn/shop/files/1_434c0dde-a809-4a8f-95e6-8be87a005ba8.png?v=1744455520\" alt=\"LEVIDE v2\" />\n      <ul class=\"upgrade-list\">\n        <li><span class=\"check-green\">✓</span> Medical-grade 850nm red light therapy</li>\n        <li><span class=\"check-green\">✓</span> Fully adjustable straps — one size fits all</li>\n        <li><span class=\"check-green\">✓</span> Improved premium cushioning</li>\n        <li><span class=\"check-green\">✓</span> Deeper tissue penetration (3–7cm)</li>\n        <li><span class=\"check-green\">✓</span> Premium build quality & materials</li>\n        <li><span class=\"check-green\">✓</span> 90-day money-back guarantee</li>\n      </ul>\n    </div>\n    <div class=\"upgrade-card\">\n      <div class=\"upgrade-card-header\">❌ LEVIDE Knee 1.0 — Old</div>\n      <img src=\"https://levidecupp.com/cdn/shop/files/3_e96a210a-5558-407e-bd4d-eca420825780.png?v=1743272515\" alt=\"LEVIDE v1\" style=\"filter:grayscale(0.4);\" />\n      <ul class=\"upgrade-list\">\n        <li><span class=\"check-red\">✗</span> Basic 600nm red light only</li>\n        <li><span class=\"check-red\">✗</span> Fixed straps — sizing issues</li>\n        <li><span class=\"check-red\">✗</span> Standard padding</li>\n        <li><span class=\"check-red\">✗</span> Shallower tissue penetration</li>\n        <li><span class=\"check-red\">✗</span> Basic build quality</li>\n        <li><span class=\"check-red\">✗</span> Standard return policy</li>\n      </ul>\n    </div>\n  </div>\n</section>\n\n<!-- ── RESULTS ── -->\n<section class=\"results-section\">\n  <div class=\"results-inner\">\n    <div class=\"results-img\">\n      <img src=\"https://levidecupp.com/cdn/shop/files/4_c50b701f-1b81-437c-8d92-f1fa2cfc5c72.png?v=1744455520\" alt=\"LEVIDE results\" />\n    </div>\n    <div>\n      <h2 style=\"font-size:30px;font-weight:800;margin-bottom:36px;text-transform:uppercase;letter-spacing:1px;\">Visible Results in 7 Days</h2>\n      <div class=\"stats-list\">\n        <div class=\"stat-item\">\n          <div class=\"stat-number\">94%</div>\n          <p class=\"stat-desc\">Of users reported noticeable knee pain relief within 1 week of consistent use compared to taking regular medicines.</p>\n        </div>\n        <div class=\"stat-item\">\n          <div class=\"stat-number\">89%</div>\n          <p class=\"stat-desc\">Of users reported reduced knee stiffness and improved mobility within just one week of regular use.</p>\n        </div>\n        <div class=\"stat-item\">\n          <div class=\"stat-number\">90%</div>\n          <p class=\"stat-desc\">Of users reported better circulation and greater ease of movement in their legs within a four week period.</p>\n        </div>\n      </div>\n      <p class=\"stat-note\">*Based on consumer testing data from LEVIDE user surveys. Individual results may vary.</p>\n    </div>\n  </div>\n</section>\n\n<!-- ── TRUSTED BY EXPERTS ── -->\n<section class=\"expert-section\">\n  <p class=\"section-title\" style=\"margin-bottom:16px;\">Trusted By Experts</p>\n  <p class=\"section-subtitle\">Trusted by thousands of physical therapists, physicians and chiropractors around the world for effective pain relief and enhanced recovery.</p>\n  <div class=\"expert-img\">\n    <img src=\"https://levidecupp.com/cdn/shop/files/doctor.png?v=1743273966\" alt=\"Trusted by experts\" />\n  </div>\n</section>\n\n<!-- ── GUARANTEE ── -->\n<section class=\"guarantee-section\">\n  <h2>Built for Results. Backed by Science.</h2>\n  <p>At LEVIDE, we believe everyone deserves to move pain-free. Every device is clinically backed, expert-trusted, and built to last. Try it risk-free with our 90-day money-back guarantee — no questions asked.</p>\n  <div class=\"trust-grid\">\n    <div class=\"trust-card\">\n      <div class=\"trust-icon\">🛡️</div>\n      <h4>90-Day Guarantee</h4>\n      <p>Full money-back guarantee if you're not completely satisfied within 90 days.</p>\n    </div>\n    <div class=\"trust-card\">\n      <div class=\"trust-icon\">🔬</div>\n      <h4>Clinically Backed</h4>\n      <p>Powered by decade-long clinical research on red light and heat therapy for knees.</p>\n    </div>\n    <div class=\"trust-card\">\n      <div class=\"trust-icon\">💬</div>\n      <h4>24/7 Support</h4>\n      <p>Our team responds within 24 hours at levide@levidecupp.com, every day.</p>\n    </div>\n    <div class=\"trust-card\">\n      <div class=\"trust-icon\">❤️</div>\n      <h4>Giving Back</h4>\n      <p>A portion of every order supports seniors in need through Meals on Wheels America.</p>\n    </div>\n  </div>\n</section>\n\n</body>\n</html>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural-Looking Freckles (No Skill, No Effort)",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tired of <strong>uneven </strong>dots, streaky pencils, or freckles that look fake by lunchtime? This multi-point freckle stamp was built for real <strong>humans </strong>— not makeup artists.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_pD6Mdt": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_CR4hbT": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CR4hbT"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "custom_liquid_cqKTNy",
+    "image_with_text_X6KRyA",
+    "scrolling_promotion_pD6Mdt"
+  ]
+}
