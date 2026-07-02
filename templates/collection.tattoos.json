@@ -96,12 +96,24 @@
         "padding_top": 0,
         "padding_bottom": 72
       }
+    },
+    "custom_liquid_LYadee": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<section class=\"trust-strip\">\n  <div class=\"trust-strip__inner\">\n\n    <div class=\"trust-item\">\n      <svg class=\"trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v6M12 16v6M4.9 4.9l4.2 4.2M14.9 14.9l4.2 4.2M2 12h6M16 12h6M4.9 19.1l4.2-4.2M14.9 9.1l4.2-4.2\"/></svg>\n      <p class=\"trust-text\">Lasts up to<br>14 days</p>\n    </div>\n\n    <div class=\"trust-item\">\n      <svg class=\"trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2.5s6.5 7 6.5 11.5a6.5 6.5 0 0 1-13 0C5.5 9.5 12 2.5 12 2.5Z\"/></svg>\n      <p class=\"trust-text\">100%<br>waterproof</p>\n    </div>\n\n    <div class=\"trust-item\">\n      <svg class=\"trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"1\" y=\"7\" width=\"15\" height=\"11\" rx=\"1\"/><path d=\"M16 10h3.5L22 13.5V18h-6\"/><circle cx=\"6\" cy=\"19\" r=\"1.7\"/><circle cx=\"17.5\" cy=\"19\" r=\"1.7\"/></svg>\n      <p class=\"trust-text\">Delivery<br>in Lebanon</p>\n    </div>\n\n    <div class=\"trust-item\">\n      <svg class=\"trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3 4 6.5v5c0 5 3.4 8.6 8 9.5 4.6-.9 8-4.5 8-9.5v-5L12 3Z\"/><path d=\"m9 12 2 2 4-4\"/></svg>\n      <p class=\"trust-text\">Skin-safe<br>ingredients</p>\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .trust-strip {\n    background: #ffffff;\n    color: #000000;\n    padding: 40px 24px;\n    border-top: 1px solid #ececec;\n    border-bottom: 1px solid #ececec;\n  }\n\n  .trust-strip__inner {\n    max-width: 1080px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 24px;\n  }\n\n  .trust-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    gap: 10px;\n  }\n\n  .trust-icon {\n    width: 32px;\n    height: 32px;\n    color: #000000;\n    flex-shrink: 0;\n  }\n\n  .trust-text {\n    margin: 0;\n    font-family: -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-serif;\n    font-size: 13px;\n    line-height: 1.4;\n    font-weight: 500;\n    letter-spacing: 0.01em;\n    color: #000000;\n  }\n\n  @media (max-width: 768px) {\n    .trust-strip__inner {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 28px 16px;\n    }\n    .trust-strip {\n      padding: 32px 20px;\n    }\n  }\n\n  @media (max-width: 380px) {\n    .trust-icon { width: 28px; height: 28px; }\n    .trust-text { font-size: 12px; }\n  }\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_L8ACAF",
     "banner",
     "subs",
-    "product-grid"
+    "product-grid",
+    "custom_liquid_LYadee"
   ]
 }
