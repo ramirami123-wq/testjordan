@@ -1,0 +1,332 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_Q4eMAn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #9e132b; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>394+</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_yRQmCt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Instant Lift Eye Gel Features Bar</title>\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  body {\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n    background: #fff;\n  }\n\n  .gp-features-wrap {\n    padding: 28px 20px 24px;\n    background: #fff;\n    border-bottom: 1px solid #e8e8e8;\n  }\n\n  .gp-tagline {\n    font-size: 15px;\n    color: #333;\n    line-height: 1.55;\n    margin-bottom: 24px;\n    max-width: 520px;\n  }\n\n  .gp-features {\n    display: flex;\n    gap: 0;\n    flex-wrap: nowrap;\n  }\n\n  .gp-feat {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 10px;\n    padding-right: 12px;\n  }\n  .gp-feat:last-child { padding-right: 0; }\n\n  .gp-icon {\n    width: 44px;\n    height: 44px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .gp-icon svg {\n    width: 100%;\n    height: 100%;\n  }\n\n  .gp-label {\n    font-size: 13px;\n    color: #1a1a1a;\n    line-height: 1.35;\n    font-weight: 400;\n  }\n\n  @media (max-width: 480px) {\n    .gp-tagline { font-size: 14px; margin-bottom: 20px; }\n    .gp-feat { padding-right: 8px; }\n    .gp-icon { width: 36px; height: 36px; }\n    .gp-label { font-size: 12px; }\n  }\n</style>\n</head>\n<body>\n\n<div class=\"gp-features-wrap\">\n  <p class=\"gp-tagline\">One easy gel that depuffs, tightens, and smooths the eye area in just 5 minutes &mdash; and keeps working all day long.</p>\n  <div class=\"gp-features\">\n\n    <!-- Instant Lift -->\n    <div class=\"gp-feat\">\n      <div class=\"gp-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Eye icon -->\n          <path d=\"M6 22c4-8 11-12 16-12s12 4 16 12c-4 8-11 12-16 12S10 30 6 22z\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          <circle cx=\"22\" cy=\"22\" r=\"5\" stroke=\"#1a1a1a\" stroke-width=\"1.6\"/>\n          <path d=\"M14 12l-2-3M30 12l2-3\" stroke=\"#1a1a1a\" stroke-width=\"1.4\" stroke-linecap=\"round\"/>\n        </svg>\n      </div>\n      <span class=\"gp-label\">Visibly<br>Lifts Skin</span>\n    </div>\n\n    <!-- Arctic Microalgae / Cooling -->\n    <div class=\"gp-feat\">\n      <div class=\"gp-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Snowflake icon -->\n          <line x1=\"22\" y1=\"6\" x2=\"22\" y2=\"38\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"8\" y1=\"15\" x2=\"36\" y2=\"29\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <line x1=\"36\" y1=\"15\" x2=\"8\" y2=\"29\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <path d=\"M22 6l-3 4M22 6l3 4M22 38l-3-4M22 38l3-4\" stroke=\"#1a1a1a\" stroke-width=\"1.2\" stroke-linecap=\"round\"/>\n          <path d=\"M8 15l1 5M8 15l5-1M36 29l-1-5M36 29l-5 1\" stroke=\"#1a1a1a\" stroke-width=\"1.2\" stroke-linecap=\"round\"/>\n          <path d=\"M36 15l-5-1M36 15l-1 5M8 29l5 1M8 29l1-5\" stroke=\"#1a1a1a\" stroke-width=\"1.2\" stroke-linecap=\"round\"/>\n        </svg>\n      </div>\n      <span class=\"gp-label\">Reduces<br>Puffiness</span>\n    </div>\n\n    <!-- MaxLift3 Biotech Complex -->\n    <div class=\"gp-feat\">\n      <div class=\"gp-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Molecule / biotech icon -->\n          <circle cx=\"14\" cy=\"14\" r=\"4\" stroke=\"#1a1a1a\" stroke-width=\"1.6\"/>\n          <circle cx=\"30\" cy=\"14\" r=\"4\" stroke=\"#1a1a1a\" stroke-width=\"1.6\"/>\n          <circle cx=\"22\" cy=\"30\" r=\"4\" stroke=\"#1a1a1a\" stroke-width=\"1.6\"/>\n          <line x1=\"17\" y1=\"16\" x2=\"19\" y2=\"26\" stroke=\"#1a1a1a\" stroke-width=\"1.4\"/>\n          <line x1=\"27\" y1=\"16\" x2=\"25\" y2=\"26\" stroke=\"#1a1a1a\" stroke-width=\"1.4\"/>\n          <line x1=\"18\" y1=\"14\" x2=\"26\" y2=\"14\" stroke=\"#1a1a1a\" stroke-width=\"1.4\"/>\n        </svg>\n      </div>\n      <span class=\"gp-label\">Softens Fine<br>Lines &amp; Wrinkles</span>\n    </div>\n\n    <!-- 8-Hour Wear -->\n    <div class=\"gp-feat\">\n      <div class=\"gp-icon\">\n        <svg viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <!-- Clock icon -->\n          <circle cx=\"22\" cy=\"22\" r=\"15\" stroke=\"#1a1a1a\" stroke-width=\"1.6\"/>\n          <path d=\"M22 13v9l6 4\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </div>\n      <span class=\"gp-label\">Results Last<br>All Day</span>\n    </div>\n\n  </div>\n</div>\n\n</body>\n</html>"
+          }
+        },
+        "text_XfnRxT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Transform your face with this vegan, cruelty-free foundation designed to deliver the perfect match of your skin tone.",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_H9DXEK": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>\n  .check-list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  }\n  .check-list li {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n    font-size: 15px;\n    color: #222222;\n    line-height: 1.5;\n    padding: 8px 0;\n  }\n  .check-list li svg {\n    flex-shrink: 0;\n    margin-top: 1px;\n    width: 20px;\n    height: 20px;\n  }\n</style>\n<ul class=\"check-list\">\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Adapts to your lip tone — a shade that's uniquely yours, every time\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Hydrates like a balm — no dryness, no fine lines, no settling\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Lasts 6–8 hours — through coffee, meals, and everything in between\n  </li>\n</ul>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_zpUGrq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .stock-warning {\n    border: 2px dashed #e05252;\n    border-radius: 10px;\n    background: #fff5f5;\n    padding: 16px 20px;\n    max-width: 600px;\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n  }\n  .stock-warning-title {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 14px;\n    font-weight: 800;\n    color: #c0392b;\n    margin-bottom: 10px;\n    text-transform: uppercase;\n    letter-spacing: 0.4px;\n  }\n  .stock-warning-title .dot {\n    width: 18px;\n    height: 18px;\n    background: #c0392b;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #fff;\n    font-size: 12px;\n    font-weight: 900;\n    flex-shrink: 0;\n  }\n  .stock-warning p {\n    font-size: 14px;\n    color: #333;\n    line-height: 1.6;\n  }\n  .stock-warning p u {\n    font-weight: 700;\n    text-underline-offset: 2px;\n  }\n  .stock-warning p strong {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"stock-warning\">\n  <div class=\"stock-warning-title\">\n    <div class=\"dot\">!</div>\n    WARNING: LOW STOCK NOTICE\n  </div>\n  <p>\n    This product sold out <u>12 times</u> last year. Take advantage of the <strong>limited offer</strong> before it's gone again.\n  </p>\n</div>"
+          }
+        },
+        "custom_liquid_PigjTJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "custom_liquid_YMTnpV": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>\n  .social-proof-wrap {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    max-width: 600px;\n  }\n  .social-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 14px 18px;\n    display: flex;\n    align-items: center;\n    gap: 14px;\n  }\n  .avatars {\n    display: flex;\n    flex-shrink: 0;\n  }\n  .avatar {\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    overflow: hidden;\n    background: #ddd;\n  }\n  .avatar:nth-child(2) {\n    margin-left: -10px;\n  }\n  .avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n  .social-text {\n    font-size: 14px;\n    color: #222;\n    line-height: 1.5;\n  }\n  .social-text strong {\n    font-weight: 700;\n  }\n  .guarantee-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 16px 18px;\n  }\n  .guarantee-row p {\n    margin: 0;\n    font-size: 14px;\n    color: #222;\n    line-height: 1.6;\n  }\n  .guarantee-row p.gtitle {\n    font-weight: 700;\n    margin-bottom: 4px;\n  }\n</style>\n\n<div class=\"social-proof-wrap\">\n\n  <div class=\"social-row\">\n    <div class=\"avatars\">\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=47\" alt=\"Christine\" />\n      </div>\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=32\" alt=\"Karen\" />\n      </div>\n    </div>\n    <div class=\"social-text\">\n      <strong>Christine, Karen</strong> and <strong>41k+ others</strong> are using <strong>JOLIE</strong>\n    </div>\n  </div>\n\n  <div class=\"guarantee-row\">\n    <p class=\"gtitle\">30-Day Money-Back Guarantee</p>\n    <p>That's how confident we are in your results. But if you're not thrilled, send it back and we'll refund your purchase.</p>\n  </div>\n\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_Q4eMAn",
+        "title",
+        "price",
+        "custom_liquid_yRQmCt",
+        "text_XfnRxT",
+        "custom_liquid_H9DXEK",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_zpUGrq",
+        "custom_liquid_PigjTJ",
+        "related_buttons",
+        "sticky_cart",
+        "custom_liquid_YMTnpV"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": false,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_cqKTNy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Consumer Approved</title>\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  body {\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n    background: #fff;\n  }\n\n  .ca-wrap {\n    padding: 60px 20px 56px;\n    background: #fff;\n    text-align: center;\n  }\n\n  .ca-heading {\n    font-family: Georgia, 'Times New Roman', serif;\n    font-style: italic;\n    font-size: 34px;\n    color: #1a1a1a;\n    margin-bottom: 44px;\n  }\n\n  .ca-stats {\n    display: flex;\n    justify-content: center;\n    gap: 48px;\n    max-width: 900px;\n    margin: 0 auto;\n    flex-wrap: wrap;\n  }\n\n  .ca-stat {\n    flex: 1;\n    min-width: 220px;\n    max-width: 260px;\n    opacity: 0;\n    transform: translateY(18px);\n    transition: opacity 0.7s ease, transform 0.7s ease;\n  }\n\n  .ca-stat.ca-in {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  .ca-ring {\n    width: 140px;\n    height: 140px;\n    margin: 0 auto 20px;\n    position: relative;\n  }\n\n  .ca-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }\n\n  .ca-ring-bg { fill: none; stroke: #f0e9f5; stroke-width: 8; }\n\n  .ca-ring-fg {\n    fill: none;\n    stroke: #7a3fa0;\n    stroke-width: 8;\n    stroke-linecap: round;\n    stroke-dasharray: 377;\n    stroke-dashoffset: 377;\n    transition: stroke-dashoffset 1.6s cubic-bezier(0.22, 1, 0.36, 1);\n  }\n\n  .ca-pct {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 30px;\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n\n  .ca-desc {\n    font-size: 14.5px;\n    color: #333;\n    line-height: 1.45;\n    max-width: 220px;\n    margin: 0 auto;\n  }\n\n  .ca-footnotes {\n    max-width: 700px;\n    margin: 40px auto 0;\n    font-size: 11.5px;\n    color: #888;\n    line-height: 1.6;\n    text-align: center;\n  }\n\n  @media (max-width: 640px) {\n    .ca-heading { font-size: 26px; margin-bottom: 32px; }\n    .ca-stats { gap: 28px; }\n    .ca-ring { width: 110px; height: 110px; }\n    .ca-pct { font-size: 24px; }\n  }\n</style>\n</head>\n<body>\n\n<div class=\"ca-wrap\">\n  <h2 class=\"ca-heading\">Consumer Approved</h2>\n\n  <div class=\"ca-stats\">\n\n    <div class=\"ca-stat\" data-pct=\"95\">\n      <div class=\"ca-ring\">\n        <svg viewBox=\"0 0 130 130\">\n          <circle class=\"ca-ring-bg\" cx=\"65\" cy=\"65\" r=\"60\"/>\n          <circle class=\"ca-ring-fg\" cx=\"65\" cy=\"65\" r=\"60\"/>\n        </svg>\n        <span class=\"ca-pct\">0%</span>\n      </div>\n      <p class=\"ca-desc\">Said their under eyes looked less tired and fatigued<sup>1</sup></p>\n    </div>\n\n    <div class=\"ca-stat\" data-pct=\"93\">\n      <div class=\"ca-ring\">\n        <svg viewBox=\"0 0 130 130\">\n          <circle class=\"ca-ring-bg\" cx=\"65\" cy=\"65\" r=\"60\"/>\n          <circle class=\"ca-ring-fg\" cx=\"65\" cy=\"65\" r=\"60\"/>\n        </svg>\n        <span class=\"ca-pct\">0%</span>\n      </div>\n      <p class=\"ca-desc\">Said their eyes look less puffy<sup>1</sup></p>\n    </div>\n\n    <div class=\"ca-stat\" data-pct=\"90\">\n      <div class=\"ca-ring\">\n        <svg viewBox=\"0 0 130 130\">\n          <circle class=\"ca-ring-bg\" cx=\"65\" cy=\"65\" r=\"60\"/>\n          <circle class=\"ca-ring-fg\" cx=\"65\" cy=\"65\" r=\"60\"/>\n        </svg>\n        <span class=\"ca-pct\">0%</span>\n      </div>\n      <p class=\"ca-desc\">Said it tightens sagging under eye bags<sup>2</sup></p>\n    </div>\n\n  </div>\n\n  <p class=\"ca-footnotes\">\n    ¹ Based on consumer perception questionnaire of 31 participants after 5 minutes<br>\n    ² Based on consumer perception questionnaire of 31 participants after 4 weeks\n  </p>\n</div>\n\n<script>\n  const circumference = 377; // 2 * PI * r(60)\n\n  function animateStat(el) {\n    const pct = parseInt(el.dataset.pct, 10);\n    const ring = el.querySelector('.ca-ring-fg');\n    const label = el.querySelector('.ca-pct');\n\n    el.classList.add('ca-in');\n    ring.style.strokeDashoffset = circumference - (circumference * pct / 100);\n\n    const duration = 1600;\n    const start = performance.now();\n\n    function tick(now) {\n      const progress = Math.min((now - start) / duration, 1);\n      const eased = 1 - Math.pow(1 - progress, 3);\n      label.textContent = Math.round(eased * pct) + '%';\n      if (progress < 1) requestAnimationFrame(tick);\n    }\n    requestAnimationFrame(tick);\n  }\n\n  const stats = document.querySelectorAll('.ca-stat');\n  const observer = new IntersectionObserver((entries) => {\n    entries.forEach(entry => {\n      if (entry.isIntersecting) {\n        animateStat(entry.target);\n        observer.unobserve(entry.target);\n      }\n    });\n  }, { threshold: 0.4 });\n\n  stats.forEach(stat => observer.observe(stat));\n</script>\n\n</body>\n</html>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_VpCCgr": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .cp-wrap {\n    padding: 72px 20px 64px;\n    background: linear-gradient(180deg, #FBF6F8 0%, #FBF6F8 40%, #ffffff 100%);\n    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;\n  }\n\n  .cp-inner { max-width: 760px; margin: 0 auto; }\n\n  .cp-eyebrow {\n    font-size: 12px;\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: #A8577A;\n    font-weight: 600;\n    text-align: center;\n    margin-bottom: 14px;\n  }\n\n  .cp-heading {\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 500;\n    font-style: italic;\n    font-size: clamp(28px, 4vw, 40px);\n    color: #2B1B26;\n    text-align: center;\n    line-height: 1.15;\n    margin-bottom: 44px;\n  }\n\n  .cp-cards {\n    display: grid;\n    grid-template-columns: 1.15fr 1fr;\n    gap: 20px;\n    align-items: stretch;\n  }\n\n  .cp-card {\n    border-radius: 20px;\n    padding: 28px 24px;\n    opacity: 0;\n    transform: translateY(16px);\n    transition: opacity 0.6s ease, transform 0.6s ease;\n    box-sizing: border-box;\n  }\n\n  .cp-card.cp-in { opacity: 1; transform: translateY(0); }\n\n  .cp-card-brand {\n    background: #FFFFFF;\n    border: 1.5px solid #EFD9E3;\n    box-shadow: 0 18px 40px -18px rgba(139, 58, 98, 0.35);\n    position: relative;\n  }\n\n  .cp-badge {\n    position: absolute;\n    top: -13px;\n    left: 24px;\n    background: #8B3A62;\n    color: #fff;\n    font-size: 11px;\n    font-weight: 700;\n    letter-spacing: 0.04em;\n    padding: 5px 12px;\n    border-radius: 100px;\n  }\n\n  .cp-card-other {\n    background: #F7F5F4;\n    border: 1.5px solid #ECEAE8;\n  }\n\n  .cp-card-title { font-size: 17px; font-weight: 700; margin: 0 0 2px; }\n  .cp-card-brand .cp-card-title { color: #6B1F45; }\n  .cp-card-other .cp-card-title { color: #8A8582; }\n\n  .cp-card-sub { font-size: 12.5px; color: #9C9793; margin: 0 0 22px; }\n\n  .cp-row {\n    display: flex;\n    align-items: flex-start;\n    gap: 10px;\n    padding: 12px 0;\n    border-top: 1px solid rgba(0,0,0,0.06);\n  }\n  .cp-row:first-of-type { border-top: none; }\n\n  .cp-icon {\n    width: 20px; height: 20px; flex-shrink: 0; border-radius: 50%;\n    display: flex; align-items: center; justify-content: center; margin-top: 1px;\n  }\n  .cp-card-brand .cp-icon { background: #E9F5EE; }\n  .cp-card-other .cp-icon { background: #F0EEEC; }\n  .cp-icon svg { width: 11px; height: 11px; }\n\n  .cp-row-text { font-size: 13.5px; line-height: 1.4; }\n  .cp-row-label {\n    display: block; font-size: 11px; color: #A39C9C;\n    text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 2px;\n  }\n  .cp-card-brand .cp-row-value { color: #2B1B26; font-weight: 600; }\n  .cp-card-other .cp-row-value { color: #918C89; font-weight: 500; }\n\n  @media (max-width: 620px) {\n    .cp-cards { grid-template-columns: 1fr; }\n    .cp-card-other { order: 2; }\n  }\n</style>\n\n<div class=\"cp-wrap\">\n  <div class=\"cp-inner\">\n    <p class=\"cp-eyebrow\">The Difference</p>\n    <h2 class=\"cp-heading\">Cleaner, Proven,<br>More Effective</h2>\n\n    <div class=\"cp-cards\">\n      <div class=\"cp-card cp-card-brand\">\n        <span class=\"cp-badge\">goPure</span>\n        <p class=\"cp-card-title\">Instant Lift Eye Gel</p>\n        <p class=\"cp-card-sub\">What you actually get</p>\n\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M2 6.5L4.5 9L10 3\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Price</span><span class=\"cp-row-value\">As low as $21.99</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M2 6.5L4.5 9L10 3\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Quick visible results</span><span class=\"cp-row-value\">In 5 minutes</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M2 6.5L4.5 9L10 3\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Long-term benefits</span><span class=\"cp-row-value\">Depuffs, tightens, lifts</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M2 6.5L4.5 9L10 3\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Technology</span><span class=\"cp-row-value\">MaxLift3 Biotech&trade;</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M2 6.5L4.5 9L10 3\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Guarantee</span><span class=\"cp-row-value\">60-day money-back</span></span></div>\n      </div>\n\n      <div class=\"cp-card cp-card-other\">\n        <p class=\"cp-card-title\">Luxury Eye Serum</p>\n        <p class=\"cp-card-sub\">The typical alternative</p>\n\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M3 3L9 9M9 3L3 9\" stroke=\"#B7AFAC\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Price</span><span class=\"cp-row-value\">$60+</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M3 3L9 9M9 3L3 9\" stroke=\"#B7AFAC\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Quick visible results</span><span class=\"cp-row-value\">In 10 minutes</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M3 3L9 9M9 3L3 9\" stroke=\"#B7AFAC\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Long-term benefits</span><span class=\"cp-row-value\">None</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M3 3L9 9M9 3L3 9\" stroke=\"#B7AFAC\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Technology</span><span class=\"cp-row-value\">Generic formula</span></span></div>\n        <div class=\"cp-row\"><span class=\"cp-icon\"><svg viewBox=\"0 0 12 12\" fill=\"none\"><path d=\"M3 3L9 9M9 3L3 9\" stroke=\"#B7AFAC\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg></span><span class=\"cp-row-text\"><span class=\"cp-row-label\">Guarantee</span><span class=\"cp-row-value\">No guarantee</span></span></div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n  (function() {\n    var cards = document.querySelectorAll('.cp-card');\n    var observer = new IntersectionObserver(function(entries) {\n      entries.forEach(function(entry) {\n        if (entry.isIntersecting) {\n          var idx = Array.from(cards).indexOf(entry.target);\n          setTimeout(function() { entry.target.classList.add('cp-in'); }, idx * 150);\n          observer.unobserve(entry.target);\n        }\n      });\n    }, { threshold: 0.25 });\n    cards.forEach(function(card) { observer.observe(card); });\n  })();\n</script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_w3keDN": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .dr-wrap {\n    padding: 64px 20px;\n    background: linear-gradient(180deg, #ffffff 0%, #FBF6F8 50%, #ffffff 100%);\n    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;\n  }\n\n  .dr-inner {\n    max-width: 640px;\n    margin: 0 auto;\n    text-align: center;\n  }\n\n  .dr-badge-wrap {\n    display: flex;\n    justify-content: center;\n    margin-bottom: 22px;\n  }\n\n  .dr-badge {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    background: #FFFFFF;\n    border: 1.5px solid #EFD9E3;\n    box-shadow: 0 10px 26px -14px rgba(139, 58, 98, 0.35);\n    border-radius: 100px;\n    padding: 8px 18px 8px 14px;\n    opacity: 0;\n    transform: translateY(10px);\n    transition: opacity 0.6s ease, transform 0.6s ease;\n  }\n\n  .dr-badge.dr-in { opacity: 1; transform: translateY(0); }\n\n  .dr-badge svg { width: 18px; height: 18px; }\n\n  .dr-badge-text {\n    font-size: 11.5px;\n    font-weight: 700;\n    letter-spacing: 0.06em;\n    text-transform: uppercase;\n    color: #6B1F45;\n  }\n\n  .dr-eyebrow {\n    font-size: 12px;\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: #A8577A;\n    font-weight: 600;\n    margin: 0 0 14px;\n  }\n\n  .dr-heading {\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 500;\n    font-style: italic;\n    font-size: clamp(26px, 4vw, 36px);\n    color: #2B1B26;\n    line-height: 1.2;\n    margin: 0 0 28px;\n  }\n\n  .dr-quote-card {\n    background: #fff;\n    border: 1.5px solid #F1E4EA;\n    border-radius: 20px;\n    padding: 34px 30px;\n    opacity: 0;\n    transform: translateY(16px);\n    transition: opacity 0.6s ease, transform 0.6s ease;\n  }\n\n  .dr-quote-card.dr-in { opacity: 1; transform: translateY(0); }\n\n  .dr-quote-mark {\n    font-family: 'Fraunces', Georgia, serif;\n    font-size: 44px;\n    color: #EFD9E3;\n    line-height: 1;\n    margin-bottom: 6px;\n  }\n\n  .dr-quote-text {\n    font-size: 16px;\n    line-height: 1.55;\n    color: #3A2A34;\n    margin: 0 0 22px;\n  }\n\n  .dr-attribution {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 12px;\n  }\n\n  .dr-avatar {\n    width: 42px;\n    height: 42px;\n    border-radius: 50%;\n    background: #8B3A62;\n    color: #fff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: 'Fraunces', Georgia, serif;\n    font-size: 15px;\n    font-weight: 600;\n    flex-shrink: 0;\n  }\n\n  .dr-attr-text { text-align: left; }\n\n  .dr-attr-name {\n    font-size: 13.5px;\n    font-weight: 700;\n    color: #2B1B26;\n  }\n\n  .dr-attr-role {\n    font-size: 12px;\n    color: #9C9793;\n  }\n\n  .dr-source {\n    display: block;\n    font-size: 11px;\n    color: #B7AFAC;\n    margin-top: 18px;\n  }\n\n  .dr-source a {\n    color: #A8577A;\n    text-decoration: underline;\n  }\n</style>\n\n<div class=\"dr-wrap\">\n  <div class=\"dr-inner\">\n\n    <div class=\"dr-badge-wrap\">\n      <span class=\"dr-badge\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"11\" cy=\"11\" r=\"7\" stroke=\"#8B3A62\" stroke-width=\"1.8\"/><path d=\"M16 16L21 21\" stroke=\"#8B3A62\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M8 11l2 2 4-4\" stroke=\"#4CAF82\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n        <span class=\"dr-badge-text\">Dermatologist Reviewed</span>\n      </span>\n    </div>\n\n    <p class=\"dr-eyebrow\">Expert Insight</p>\n    <h2 class=\"dr-heading\">What The Dermatologist<br>Has To Say</h2>\n\n    <div class=\"dr-quote-card\">\n      <div class=\"dr-quote-mark\">&ldquo;</div>\n      <p class=\"dr-quote-text\">This eye gel's blend of skin-tightening and depuffing ingredients makes it a smart, budget-friendly option for anyone looking to visibly reduce puffiness and fine lines around the eyes without a trip to the dermatologist's office.</p>\n      <div class=\"dr-attribution\">\n        <span class=\"dr-avatar\">SH</span>\n        <span class=\"dr-attr-text\">\n          <span class=\"dr-attr-name\">Dr. Samar Hdayfe, DO</span><br>\n          <span class=\"dr-attr-role\">Dermatology Advisor</span>\n        </span>\n      </div>\n   \n    </div>\n\n  </div>\n</div>\n\n<script>\n  (function() {\n    var els = document.querySelectorAll('.dr-badge, .dr-quote-card');\n    var observer = new IntersectionObserver(function(entries) {\n      entries.forEach(function(entry, i) {\n        if (entry.isIntersecting) {\n          setTimeout(function() { entry.target.classList.add('dr-in'); }, i * 150);\n          observer.unobserve(entry.target);\n        }\n      });\n    }, { threshold: 0.3 });\n    els.forEach(function(el) { observer.observe(el); });\n  })();\n</script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_HN4gp7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .fq-wrap {\n    padding: 64px 20px 72px;\n    background: #ffffff;\n    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;\n  }\n\n  .fq-inner { max-width: 680px; margin: 0 auto; }\n\n  .fq-eyebrow {\n    font-size: 12px;\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: #A8577A;\n    font-weight: 600;\n    text-align: center;\n    margin: 0 0 14px;\n  }\n\n  .fq-heading {\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 500;\n    font-style: italic;\n    font-size: clamp(28px, 4vw, 38px);\n    color: #2B1B26;\n    text-align: center;\n    line-height: 1.15;\n    margin: 0 0 40px;\n  }\n\n  .fq-list { display: flex; flex-direction: column; gap: 12px; }\n\n  .fq-item {\n    background: #fff;\n    border: 1.5px solid #F1E4EA;\n    border-radius: 16px;\n    opacity: 0;\n    transform: translateY(14px);\n    transition: opacity 0.55s ease, transform 0.55s ease, border-color 0.25s ease, box-shadow 0.25s ease;\n    overflow: hidden;\n  }\n\n  .fq-item.fq-in { opacity: 1; transform: translateY(0); }\n\n  .fq-item.fq-open {\n    border-color: #EFD9E3;\n    box-shadow: 0 14px 30px -20px rgba(139, 58, 98, 0.4);\n  }\n\n  .fq-question {\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 16px;\n    background: none;\n    border: none;\n    text-align: left;\n    padding: 18px 20px;\n    cursor: pointer;\n    font-family: inherit;\n  }\n\n  .fq-question-text {\n    font-size: 14.5px;\n    font-weight: 600;\n    color: #2B1B26;\n  }\n\n  .fq-toggle {\n    width: 26px;\n    height: 26px;\n    border-radius: 50%;\n    background: #FBF0F4;\n    flex-shrink: 0;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    transition: background 0.25s ease, transform 0.3s ease;\n  }\n\n  .fq-item.fq-open .fq-toggle {\n    background: #8B3A62;\n    transform: rotate(180deg);\n  }\n\n  .fq-toggle::before, .fq-toggle::after {\n    content: \"\";\n    position: absolute;\n    background: #8B3A62;\n    border-radius: 2px;\n    transition: background 0.25s ease;\n  }\n\n  .fq-toggle::before { width: 10px; height: 1.6px; }\n  .fq-toggle::after { width: 1.6px; height: 10px; }\n\n  .fq-item.fq-open .fq-toggle::before,\n  .fq-item.fq-open .fq-toggle::after {\n    background: #fff;\n  }\n\n  .fq-item.fq-open .fq-toggle::after { transform: scaleY(0); }\n\n  .fq-answer {\n    max-height: 0;\n    overflow: hidden;\n    transition: max-height 0.35s ease;\n  }\n\n  .fq-answer-inner {\n    padding: 0 20px 20px;\n    font-size: 13.5px;\n    line-height: 1.6;\n    color: #6B6560;\n  }\n\n  .fq-footer {\n    text-align: center;\n    margin-top: 32px;\n    font-size: 13px;\n    color: #9C9793;\n  }\n\n  .fq-footer a {\n    color: #A8577A;\n    font-weight: 600;\n    text-decoration: underline;\n  }\n</style>\n\n<div class=\"fq-wrap\">\n  <div class=\"fq-inner\">\n    <p class=\"fq-eyebrow\">Good To Know</p>\n    <h2 class=\"fq-heading\">Frequently Asked<br>Questions</h2>\n\n    <div class=\"fq-list\">\n\n      <div class=\"fq-item\">\n        <button class=\"fq-question\" type=\"button\">\n          <span class=\"fq-question-text\">How do I use the Instant Lift Eye Gel?</span>\n          <span class=\"fq-toggle\"></span>\n        </button>\n        <div class=\"fq-answer\">\n          <div class=\"fq-answer-inner\">Apply a rice-grain amount under each eye on clean, dry skin, morning and night. Stay expressionless for about 5 minutes while it sets, then follow with your usual serum, moisturizer, or makeup.</div>\n        </div>\n      </div>\n\n      <div class=\"fq-item\">\n        <button class=\"fq-question\" type=\"button\">\n          <span class=\"fq-question-text\">How soon will I see results, and how long do they last?</span>\n          <span class=\"fq-toggle\"></span>\n        </button>\n        <div class=\"fq-answer\">\n          <div class=\"fq-answer-inner\">Most people notice visible tightening and reduced puffiness within 5 minutes of applying. That tightened, refreshed look can last up to 8 hours before you may want to reapply.</div>\n        </div>\n      </div>\n\n      <div class=\"fq-item\">\n        <button class=\"fq-question\" type=\"button\">\n          <span class=\"fq-question-text\">What areas can I use it on?</span>\n          <span class=\"fq-toggle\"></span>\n        </button>\n        <div class=\"fq-answer\">\n          <div class=\"fq-answer-inner\">It's designed for the delicate under-eye area, but many customers also use it on the forehead to smooth the look of fine lines and mild sagging.</div>\n        </div>\n      </div>\n\n      <div class=\"fq-item\">\n        <button class=\"fq-question\" type=\"button\">\n          <span class=\"fq-question-text\">Is it safe for sensitive or mature skin?</span>\n          <span class=\"fq-toggle\"></span>\n        </button>\n        <div class=\"fq-answer\">\n          <div class=\"fq-answer-inner\">The formula is dermatologist reviewed and made for the sensitive eye area. As with any new skincare product, we recommend a small patch test first if you have particularly reactive skin.</div>\n        </div>\n      </div>\n\n      <div class=\"fq-item\">\n        <button class=\"fq-question\" type=\"button\">\n          <span class=\"fq-question-text\">What if it doesn't work for me?</span>\n          <span class=\"fq-toggle\"></span>\n        </button>\n        <div class=\"fq-answer\">\n          <div class=\"fq-answer-inner\">You're covered by a 60-day money-back guarantee. If you're not happy with your results, reach out to our support team for a refund.</div>\n        </div>\n      </div>\n\n      <div class=\"fq-item\">\n        <button class=\"fq-question\" type=\"button\">\n          <span class=\"fq-question-text\">How long does one tube last?</span>\n          <span class=\"fq-toggle\"></span>\n        </button>\n        <div class=\"fq-answer\">\n          <div class=\"fq-answer-inner\">Each 0.34 fl oz (10ml) tube typically lasts 1&ndash;2 months with twice-daily use, depending on how much product you apply.</div>\n        </div>\n      </div>\n\n    </div>\n\n   \n  </div>\n</div>\n\n<script>\n  (function() {\n    var items = document.querySelectorAll('.fq-item');\n\n    // scroll reveal\n    var observer = new IntersectionObserver(function(entries) {\n      entries.forEach(function(entry, i) {\n        if (entry.isIntersecting) {\n          var idx = Array.from(items).indexOf(entry.target);\n          setTimeout(function() { entry.target.classList.add('fq-in'); }, idx * 80);\n          observer.unobserve(entry.target);\n        }\n      });\n    }, { threshold: 0.2 });\n    items.forEach(function(item) { observer.observe(item); });\n\n    // accordion toggle\n    items.forEach(function(item) {\n      var btn = item.querySelector('.fq-question');\n      var answer = item.querySelector('.fq-answer');\n\n      btn.addEventListener('click', function() {\n        var isOpen = item.classList.contains('fq-open');\n\n        items.forEach(function(other) {\n          other.classList.remove('fq-open');\n          other.querySelector('.fq-answer').style.maxHeight = null;\n        });\n\n        if (!isOpen) {\n          item.classList.add('fq-open');\n          answer.style.maxHeight = answer.scrollHeight + 'px';\n        }\n      });\n    });\n  })();\n</script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_3jVf7B": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .gt-wrap {\n    padding: 56px 20px 60px;\n    background: #ffffff;\n    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;\n  }\n\n  .gt-inner { max-width: 980px; margin: 0 auto; }\n\n  .gt-eyebrow {\n    font-size: 12px;\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: #A8577A;\n    font-weight: 600;\n    text-align: center;\n    margin: 0 0 14px;\n  }\n\n  .gt-heading {\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 500;\n    font-style: italic;\n    font-size: clamp(26px, 4vw, 36px);\n    color: #2B1B26;\n    text-align: center;\n    line-height: 1.2;\n    margin: 0 0 40px;\n  }\n\n  .gt-grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 18px;\n  }\n\n  .gt-card {\n    background: #FBF6F8;\n    border: 1.5px solid #F1E4EA;\n    border-radius: 18px;\n    padding: 28px 20px;\n    text-align: center;\n    opacity: 0;\n    transform: translateY(16px);\n    transition: opacity 0.55s ease, transform 0.55s ease, box-shadow 0.25s ease, border-color 0.25s ease;\n  }\n\n  .gt-card.gt-in { opacity: 1; transform: translateY(0); }\n\n  .gt-card:hover {\n    border-color: #EFD9E3;\n    box-shadow: 0 16px 34px -20px rgba(139, 58, 98, 0.4);\n  }\n\n  .gt-icon {\n    width: 52px;\n    height: 52px;\n    margin: 0 auto 16px;\n    border-radius: 50%;\n    background: #FFFFFF;\n    border: 1.5px solid #EFD9E3;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .gt-icon svg { width: 24px; height: 24px; }\n\n  .gt-title {\n    font-size: 14.5px;\n    font-weight: 700;\n    color: #2B1B26;\n    margin: 0 0 6px;\n  }\n\n  .gt-desc {\n    font-size: 12.5px;\n    line-height: 1.5;\n    color: #8A8582;\n    margin: 0;\n  }\n\n  @media (max-width: 860px) {\n    .gt-grid { grid-template-columns: repeat(2, 1fr); }\n  }\n\n  @media (max-width: 460px) {\n    .gt-grid { grid-template-columns: 1fr; }\n    .gt-card { padding: 24px 20px; }\n  }\n</style>\n\n<div class=\"gt-wrap\">\n  <div class=\"gt-inner\">\n    <p class=\"gt-eyebrow\">Why Shop With Confidence</p>\n    <h2 class=\"gt-heading\">Our 4 Guarantees</h2>\n\n    <div class=\"gt-grid\">\n\n      <div class=\"gt-card\">\n        <span class=\"gt-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 3l7 3v6c0 5-3.5 8-7 9-3.5-1-7-4-7-9V6l7-3z\" stroke=\"#8B3A62\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><path d=\"M9 12l2 2 4-4\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n        </span>\n        <p class=\"gt-title\">60-Day Guarantee</p>\n        <p class=\"gt-desc\">Not in love with your results? Get a full refund, no questions asked.</p>\n      </div>\n\n      <div class=\"gt-card\">\n        <span class=\"gt-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"6.5\" stroke=\"#8B3A62\" stroke-width=\"1.6\"/><path d=\"M15 15L20.5 20.5\" stroke=\"#8B3A62\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M7 10l2 2 3.5-3.5\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n        </span>\n        <p class=\"gt-title\">Dermatologist Reviewed</p>\n        <p class=\"gt-desc\">Formulated and reviewed with input from a licensed dermatologist.</p>\n      </div>\n\n      <div class=\"gt-card\">\n        <span class=\"gt-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"2\" y=\"8\" width=\"13\" height=\"9\" rx=\"1.5\" stroke=\"#8B3A62\" stroke-width=\"1.6\"/><path d=\"M15 11h3.5L21 14.5V17h-6v-6z\" stroke=\"#8B3A62\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><circle cx=\"7\" cy=\"18.5\" r=\"1.6\" stroke=\"#8B3A62\" stroke-width=\"1.4\"/><circle cx=\"17.5\" cy=\"18.5\" r=\"1.6\" stroke=\"#8B3A62\" stroke-width=\"1.4\"/></svg>\n        </span>\n        <p class=\"gt-title\">Delivery All Over Lebanon</p>\n        <p class=\"gt-desc\">Every order is shipped straight to your door.</p>\n      </div>\n\n      <div class=\"gt-card\">\n        <span class=\"gt-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M4 4h6v6H4V4zM14 4h6v6h-6V4zM4 14h6v6H4v-6z\" stroke=\"#8B3A62\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><path d=\"M14.5 15.5l2 2 3.5-3.5\" stroke=\"#4CAF82\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n        </span>\n        <p class=\"gt-title\">Clinically Tested</p>\n        <p class=\"gt-desc\">Backed by real clinical testing, not just consumer surveys.</p>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<script>\n  (function() {\n    var cards = document.querySelectorAll('.gt-card');\n    var observer = new IntersectionObserver(function(entries) {\n      entries.forEach(function(entry) {\n        if (entry.isIntersecting) {\n          var idx = Array.from(cards).indexOf(entry.target);\n          setTimeout(function() { entry.target.classList.add('gt-in'); }, idx * 100);\n          observer.unobserve(entry.target);\n        }\n      });\n    }, { threshold: 0.2 });\n    cards.forEach(function(card) { observer.observe(card); });\n  })();\n</script>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural-Looking Freckles (No Skill, No Effort)",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tired of <strong>uneven </strong>dots, streaky pencils, or freckles that look fake by lunchtime? This multi-point freckle stamp was built for real <strong>humans </strong>— not makeup artists.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_pD6Mdt": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_CR4hbT": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CR4hbT"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "custom_liquid_cqKTNy",
+    "custom_liquid_VpCCgr",
+    "custom_liquid_w3keDN",
+    "custom_liquid_HN4gp7",
+    "custom_liquid_3jVf7B",
+    "image_with_text_X6KRyA",
+    "scrolling_promotion_pD6Mdt"
+  ]
+}
