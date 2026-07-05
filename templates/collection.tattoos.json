@@ -35,6 +35,17 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_NhmqzB": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Hero Section</title>\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  body { font-family: -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-serif; }\n\n  .hero {\n    background: #000000;\n    color: #ffffff;\n    padding: 72px 24px 56px;\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 18px;\n  }\n\n  .hero-eyebrow {\n    font-size: 12px;\n    letter-spacing: 3px;\n    text-transform: uppercase;\n    color: #bdbdbd;\n    font-weight: 600;\n  }\n\n  .hero-title {\n    font-size: 44px;\n    font-weight: 700;\n    letter-spacing: -0.02em;\n    line-height: 1.1;\n    max-width: 720px;\n    color: #ffffff;\n  }\n\n  .hero-subtitle {\n    font-size: 16px;\n    line-height: 1.6;\n    color: #d4d4d4;\n    max-width: 520px;\n    margin-top: -4px;\n  }\n\n  .hero-cta-row {\n    display: flex;\n    gap: 12px;\n    margin-top: 8px;\n    flex-wrap: wrap;\n    justify-content: center;\n  }\n\n  .hero-btn {\n    padding: 14px 28px;\n    font-size: 14px;\n    font-weight: 600;\n    font-family: inherit;\n    border-radius: 30px;\n    cursor: pointer;\n    border: 1px solid #ffffff;\n    transition: background 0.15s ease, color 0.15s ease;\n    text-decoration: none;\n    display: inline-block;\n    outline: none;\n  }\n\n  .hero-btn--solid {\n    background: #ffffff;\n    color: #000000;\n  }\n  .hero-btn--solid:hover {\n    background: #e2e2e2;\n  }\n\n  .hero-btn--outline {\n    background: transparent;\n    color: #ffffff;\n  }\n  .hero-btn--outline:hover {\n    background: #ffffff;\n    color: #000000;\n  }\n\n  .hero-divider {\n    width: 40px;\n    height: 2px;\n    background: #ffffff;\n    margin-top: 24px;\n    opacity: 0.6;\n  }\n\n  .hero-stats {\n    display: flex;\n    gap: 40px;\n    margin-top: 24px;\n    flex-wrap: wrap;\n    justify-content: center;\n  }\n\n  .hero-stat {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 2px;\n  }\n\n  .hero-stat-num {\n    font-size: 22px;\n    font-weight: 700;\n    color: #ffffff;\n  }\n\n  .hero-stat-label {\n    font-size: 11.5px;\n    color: #a8a8a8;\n    letter-spacing: 0.5px;\n    text-transform: uppercase;\n  }\n\n  @media (max-width: 600px) {\n    .hero { padding: 56px 20px 44px; }\n    .hero-title { font-size: 30px; }\n    .hero-subtitle { font-size: 14.5px; }\n    .hero-stats { gap: 28px; }\n    .hero-stat-num { font-size: 18px; }\n    .hero-btn { padding: 12px 22px; font-size: 13px; }\n  }\n</style>\n</head>\n<body>\n\n<section class=\"hero\">\n  <span class=\"hero-eyebrow\">14-Day Temporary Tattoos</span>\n  <h1 class=\"hero-title\">Real Ink Look.<br>Zero Commitment.</h1>\n  <p class=\"hero-subtitle\">Waterproof, skin-safe designs that go on in seconds and fade naturally after two weeks — no needles, no regrets.</p>\n\n  <div class=\"hero-divider\"></div>\n\n  <div class=\"hero-stats\">\n    <div class=\"hero-stat\">\n      <span class=\"hero-stat-num\">14 Days</span>\n      <span class=\"hero-stat-label\">Average Wear</span>\n    </div>\n    <div class=\"hero-stat\">\n      <span class=\"hero-stat-num\">100%</span>\n      <span class=\"hero-stat-label\">Waterproof</span>\n    </div>\n    <div class=\"hero-stat\">\n      <span class=\"hero-stat-num\">4.8★</span>\n      <span class=\"hero-stat-label\">Customer Rating</span>\n    </div>\n  </div>\n</section>\n\n</body>\n</html>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -133,6 +144,7 @@
   },
   "order": [
     "image_banner_L8ACAF",
+    "custom_liquid_NhmqzB",
     "banner",
     "subs",
     "product-grid",
