@@ -55,6 +55,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_height": 50,
         "mobile_logo_height": 34,
