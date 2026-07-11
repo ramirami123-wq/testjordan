@@ -55,8 +55,8 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
+        "logo": "shopify://shop_images/Design_sans_titre_96274cdb-20f3-4128-9799-84912625b7e7.avif",
         "logo_height": 50,
         "mobile_logo_height": 34,
         "logo_position": "top-center",
